@@ -1,11 +1,6 @@
-# Import necessary libraries
-import streamlit as st
-import pandas as pd
-import gensim
-import nltk
-from nltk.corpus import stopwords
-from gensim import corpora
-from gensim.models import LdaModel
-import pyLDAvis
-import pyLDAvis.gensim_models
-from wordcloud import WordCloud
+streamlit
+pandas
+gensim
+nltk
+pyLDAvis
+wordcloud
