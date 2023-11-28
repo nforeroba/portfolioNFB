@@ -1,0 +1,200 @@
+head:
+  title: "Nicolás Forero-Baena | Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Nicolás Forero - Baena"
+  subtitle: "Data Scientist (with an actual science background)"
+  description: "Passionate about science, technology, knowledge and a better future."
+  image:
+    x: "img/showcase/OIG2.jpeg"
+    _2x: "img/showcase/OIG2.jpeg"
+  imageMobile:
+    x: "img/showcase/OIG2.jpeg"
+    _2x: "img/showcase/OIG2.jpeg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact me"
+    URL: 'mailto: nforerob@unal.edu.co'
+   
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
+
+    - icon: "github"
+      URL: "https://github.com/nforeroba/portfolioNFB.git"
+
+# about
+about:
+  enable: true
+  title: "About me:"
+  content: 
+    <p class="lead">
+    I have a background in the sciences and have gained experience in industry, academic research, and teaching. Working with <strong>data</strong>, from experimental design to raw information to insights, is a crucial part of a scientist’s duties. My goal is to work as a <strong>Data Scientist</strong> in the technological, commercial, financial, biomedical, and governance sectors, and elevate my career to the next level.
+    </p>
+    <p class="lead">
+    I am confident that the scientific, analytical, critical, and lifelong-learning mindset that I’ve developed over nearly 17 years of studying and working in chemistry, often referred to as the central science, will be helpful for <strong>solving problems</strong> and <strong>generating value</strong> across various fields and <strong>interdisciplinary teams</strong>.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
+  image:
+    x: "img/showcase/yo.jpg"
+    _2x: "img/showcase/yo.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Experienced in research & development and quality control/analysis in industry, as well as academic research and teaching. Certified C1 English proficiency (can also be assessed in an interview)."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://github.com/nforeroba/portfolioNFB/blob/main/Nicolas_Forero_Baena_112023_CV_Resume.pdf"
+
+  items:
+    - title: "R&D | QC | QA Scientist"
+      company: "Bank of the Republic (Colombia) - BRC"
+      duration: "2018 - 2023"
+
+    - title: "Teacher & Language Center Coordinator"
+      company: "Bogota Technological Corporation"
+      duration: "2017"
+
+    - title: "Jr. Researcher | Teaching Assistant"
+      company: "National University of Colombia - Laboratory of Basic Research in Biochemistry"
+      duration: "2013 - 2015"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Master's in Applied Statistics and Data Science"
+      year: "2023 - in progress"
+      degree: "El Bosque University (UEB)"
+
+    - university: "MSc Sciences - Biochemistry (merits)"
+      year: "2013 - 2015"
+      degree: "National University of Colombia (UNAL)"
+      
+    - university: "BSc Chemistry"
+      year: "2007 - 2012"
+      degree: "National University of Colombia (UNAL)"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: TRUE
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "S&P500 Stock Price Forecast Application"
+      description: "Pick a stock, tweak parameters and run price forecasts. Check accuracy metrics and interact with test and forecast plots."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://nicoforeba.shinyapps.io/SP500_Forecast/"
+      image:
+        x: "img/works/SP500.jpg"
+        _2x: "img/works/SP500.jpg"
+      is_even: true
+
+    - title: "Smartphone Features Survey Analysis: What do consumers want?"
+      description: "Visualize the results of this survey with interactive graphics! Powered by NLP (Natural Language Processing) & LDA (Latent Dirichlet Allocation)."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://portfolionfb-nlplda4survey.streamlit.app/"
+      image:
+        x: "img/works/nlplda.jpg"
+        _2x: "img/works/nlplda.jpg"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Bibiana Gordillo Diaz"
+      position: "Section Manager, Study of Monetary Species, Bank of the Republic (Colombia)"
+      content: "I collaborated with Nicolás on a variety of research projects. His methodology and problem interpretation were remarkable. He comprehended the variables of analysis in a thorough, exact, and prompt manner."
+      image:
+        x: "img/testimonials/bibs.jpg"
+        _2x: "img/testimonials/bibs.jpg"
+        
+    - name: "Luis Ernesto Contreras R, Dr. Sc."
+      position: "Biochemistry Professor, National University of Colombia"
+      content: "While working closely with Nicolás on biochemistry and bioinformatics projects, I observed remarkable potential in his technical and intellectual skills, as well as a genuine interest in applying data analysis to our scientific results. Planning and proposing creative solutions stand out among his strengths."
+      image:
+        x: "img/testimonials/luis.jpg"
+        _2x: "img/testimonials/luis.jpg"
+
+    - name: "Andres Herrera"
+      position: "PhD Candidate, Department of Biological Chemistry, University of Michigan"
+      content: "I had the opportunity to work with Nicolás for two years at the Laboratory of Basic Research in Biochemistry (National University of Colombia). Nicolás is characterized by being a great professional with an excellent command of the literature, always proactive and constructive. I remember our time working together and our discussions about science and experiments fondly."
+      image:
+        x: "img/testimonials/rojo.jpg"
+        _2x: "img/testimonials/rojo.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Nicolás"
+    
+  image:
+    x: "img/who-am-i/yo.jpg"
+    _2x: "img/who-am-i/yo.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send message"
+    btnAction: 'mailto: nforerob@unal.edu.co'
+    
+  email:
+    title: "E-mails"
+    email: '<a href="mailto:nforerob@unal.edu.co">nforerob@unal.edu.co</a>, <a href="mailto:nforeroba@unbosque.edu.co">nforeroba@unbosque.edu.co</a>'
+    
