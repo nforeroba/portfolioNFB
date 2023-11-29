@@ -42,8 +42,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
   image:
-    x: "img/showcase/yo1.jpg"
-    _2x: "img/showcase/yo1.jpg"
+    x: "img/showcase/yoscl.png"
+    _2x: "img/showcase/yoscl.png"
 
 # experience
 experience:
@@ -186,8 +186,8 @@ contact:
   title: "Contact Nicolás"
     
   image:
-    x: "img/who-am-i/yo.jpg"
-    _2x: "img/who-am-i/yo.jpg"
+    x: "img/who-am-i/yoscl.png"
+    _2x: "img/who-am-i/yoscl.png"
     
   button:
     icon: "icon-mail-fill"
