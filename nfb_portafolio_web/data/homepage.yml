@@ -42,8 +42,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
   image:
-    x: "img/showcase/yo.jpg"
-    _2x: "img/showcase/yo.jpg"
+    x: "img/showcase/yo1.jpg"
+    _2x: "img/showcase/yo1.jpg"
 
 # experience
 experience:
