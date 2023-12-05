@@ -151,6 +151,19 @@ client_and_work:
         _2x: "img/works/nlplda.jpg"
       is_even: false
 
+    - title: "Spotify - TOP 30 Popular Songs By Country"
+      description: "See what's hot these days on Spotify! Pick a country (or Global Top 50) and look at the top 30 songs, ranked by popularity."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://nicoforeba.shinyapps.io/Top30onSpoty/"
+      image:
+        x: "img/works/spot.jpg"
+        _2x: "img/works/spot.jpg"
+      is_even: true
+      
+      
+
     
 
 # testimonial
