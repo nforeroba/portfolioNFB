@@ -48,8 +48,8 @@ tokenized_text = df_bigram['tokens']
 dictionary = corpora.Dictionary(tokenized_text)
 corpus = [dictionary.doc2bow(doc) for doc in tokenized_text]
 
-num_topics = 10
-lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=100, alpha='auto', eta='auto')
+num_topics = 4
+lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10, alpha='auto', eta='auto')
 
 # Streamlit app
 st.title("Smartphone Features Survey Analysis: What do consumers want?")
