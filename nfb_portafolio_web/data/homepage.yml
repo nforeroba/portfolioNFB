@@ -60,6 +60,10 @@ experience:
     URL: "https://github.com/nforeroba/portfolioNFB/blob/main/Nicolas_Forero_Baena_012024_CV_Resume.pdf"
 
   items:
+    - title: "Data Scientist"
+      company: "IMPSERCOM S.A.S - Grupo Espumados"
+      duration: "2024 - Present"
+  
     - title: "R&D | QC | QA Scientist"
       company: "Bank of the Republic (Colombia) - BRC"
       duration: "2018 - 2023"
@@ -80,7 +84,11 @@ education:
     - university: "Master's in Applied Statistics and Data Science"
       year: "2023 - in progress"
       degree: "El Bosque University (UEB)"
-
+      
+    - university: "Data Science for Business"
+      year: "2023 - continuous"
+      degree: "Business Science University"
+      
     - university: "MSc Sciences - Biochemistry (merits)"
       year: "2013 - 2015"
       degree: "National University of Colombia (UNAL)"
