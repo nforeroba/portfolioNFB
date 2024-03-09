@@ -152,7 +152,7 @@ client_and_work:
       description: "Detection of 9 iconic videogame characters in a fast-paced trailer. Powered by YOLOv3, OpenCV and NVidia RTX 3060 Ti."
       button:
         icon: "icon-arrow-right"
-        btnText: "Watch video"
+        btnText: "Watch video!"
         URL: "https://youtu.be/W0cWw5geXCU"
       image:
         x: "img/works/smash.jpg"
