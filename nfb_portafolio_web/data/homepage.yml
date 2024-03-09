@@ -146,7 +146,7 @@ client_and_work:
       image:
         x: "img/works/SP500.jpg"
         _2x: "img/works/SP500.jpg"
-      is_even: true
+      is_even: false
       
       - title: "Computer Vision - Character detection with YOLOv3"
       description: "Detection of 9 iconic videogame characters in a fast-paced trailer. Powered by YOLOv3, OpenCV and NVidia RTX 3060 Ti."
@@ -157,7 +157,7 @@ client_and_work:
       image:
         x: "img/works/smash.jpg"
         _2x: "img/works/smash.jpg"
-      is_even: false
+      is_even: true
 
     - title: "Smartphone Features Survey Analysis: What do consumers want?"
       description: "Visualize the results of this survey with interactive graphics! Powered by NLP (Natural Language Processing) & LDA (Latent Dirichlet Allocation)."
@@ -168,7 +168,7 @@ client_and_work:
       image:
         x: "img/works/nlplda.jpg"
         _2x: "img/works/nlplda.jpg"
-      is_even: true
+      is_even: false
 
 #    - title: "Spotify - TOP 30 Popular Songs By Country"
 #      description: "See what's hot these days on Spotify! Pick a country (or Global Top 50) and look at the top 30 songs, ranked by popularity."
