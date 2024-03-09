@@ -170,8 +170,8 @@ client_and_work:
         _2x: "img/works/nlplda.jpg"
       is_even: true
 
-    - title: "Spotify - TOP 30 Popular Songs By Country"
-      description: "See what's hot these days on Spotify! Pick a country (or Global Top 50) and look at the top 30 songs, ranked by popularity."
+    - title: "Spotify - TOP 50 Popular Songs By Daily Rank & Country"
+      description: "See what's hot these days on Spotify! Pick a country (or Global Top 50) and look at the top 50 songs by daily rank."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
