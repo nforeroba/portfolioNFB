@@ -8,7 +8,7 @@ params:
   googleAnalyticsID: ''
   logo:
     text1: Nicolás
-    text2: FB
+    text2: F B
   plugins:
     css:
       - URL: css/main.css
