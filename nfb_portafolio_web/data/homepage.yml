@@ -141,7 +141,7 @@ client_and_work:
 
   works:
     - title: "S&P500 Stock Price Forecast Application"
-      description: "Pick a stock, tweak parameters and run price forecasts. Check accuracy metrics and interact with test and forecast plots."
+      description: "Pick a stock, tweak parameters and run price forecasts. Check performance metrics and interact with test and forecast plots."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
