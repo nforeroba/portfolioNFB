@@ -33,6 +33,8 @@ about:
   content: 
     <p class="lead">
     I have a background in the sciences and have gained experience in industry, academic research, and teaching. Working with <strong>data</strong>, from experimental design and raw information to insights, is a crucial part of a scientist’s duties. My goal is to work as a <strong>Data Scientist</strong> in the <strong>technological, commercial, financial, biomedical, and governance</strong> sectors. 
+    </p>
+    <p class="lead">
     <strong>Update - I am currently working as a Data Scientist for a manufacture and retail company, specifically for marketing and commercial management</strong>. 
     </p>
     <p class="lead">
@@ -139,7 +141,7 @@ client_and_work:
 
   works:
     - title: "S&P500 Stock Price Forecast Application"
-      description: "Pick a stock, tweak parameters and run price forecasts. Check accuracy metrics and interact with test and forecast plots."
+      description: "Pick a stock, tweak parameters and run price forecasts. Check performance metrics and interact with test and forecast plots."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
