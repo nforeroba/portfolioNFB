@@ -1,7 +1,7 @@
 streamlit
-scipy
+scipy==1.11.0
 pandas
-gensim
+gensim==4.3.2
 nltk
 pyLDAvis
 wordcloud
