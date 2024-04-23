@@ -1,6 +1,7 @@
 # Import necessary libraries
 import streamlit as st
 import pandas as pd
+import scipy
 import gensim
 import nltk
 from nltk.corpus import stopwords
@@ -49,7 +50,7 @@ dictionary = corpora.Dictionary(tokenized_text)
 corpus = [dictionary.doc2bow(doc) for doc in tokenized_text]
 
 num_topics = 4
-lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10, alpha='auto', eta='auto')
+lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10, alpha='auto', eta='auto', random_state=42)
 
 # Streamlit app
 st.title("Smartphone Features Survey Analysis: What do consumers want?")
