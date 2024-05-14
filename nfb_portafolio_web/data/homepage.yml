@@ -190,6 +190,13 @@ testimonial:
   enable: true
   title: "Testimonials"
   items:
+
+    - name: "Diego Ardila"
+      position: "Marketing Manager, IMPSERCOM S.A.S - Grupo Espumados"
+      content: "Working with Nicolás Forero was an enriching experience, not only personally due to his commitment and loyalty but also because of his great ability to create new analytical and predictive models that allowed us to design strategies to strengthen our business. I highly recommend Nicolás as an excellent professional with great human qualities."
+      image:
+        x: "img/testimonials/espumados.png"
+        _2x: "img/testimonials/espumados.png"
   
     - name: "Bibiana Gordillo Diaz"
       position: "Section Manager, Study of Monetary Species, Bank of the Republic (Colombia)"
