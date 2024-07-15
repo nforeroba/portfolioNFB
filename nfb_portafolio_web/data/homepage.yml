@@ -60,6 +60,11 @@ experience:
     URL: "https://github.com/nforeroba/portfolioNFB/blob/main/Nicolas_Forero_Baena_012024_CV_Resume.pdf"
 
   items:
+
+    - title: "Data Scientist"
+      company: "AECSA BPO"
+      duration: "2024 - present"
+
     - title: "Data Scientist"
       company: "IMPSERCOM S.A.S - Espumados Group"
       duration: "2024 / 3 month consultancy"
