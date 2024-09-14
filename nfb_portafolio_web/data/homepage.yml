@@ -142,6 +142,18 @@ client_and_work:
       alt: "Ztos"
 
   works:
+    - title: "Homeland Security AI Q&A Analyst"
+      description: "Ask the AI analyst about statistics of different crime types in Colombia. It will transform your natural language question into a SQLite query and show you tables or charts! Powered by Open AI, Langchain and Plotly."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://tesiscrimen.streamlit.app/"
+      image:
+        x: "img/works/tesis.png"
+        _2x: "img/works/tesis.png"
+      is_even: false
+
+  
     - title: "S&P500 Stock Price Forecast Application"
       description: "Pick a stock, tweak parameters and run price forecasts. Check performance metrics and interact with test and forecast plots."
       button:
