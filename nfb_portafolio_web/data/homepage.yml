@@ -143,7 +143,7 @@ client_and_work:
 
   works:
     - title: "Homeland Security AI Q&A Analyst"
-      description: "Ask the AI analyst about statistics of different crime types in Colombia. It will transform your natural language question into a SQLite query and show you tables or charts! Powered by Open AI, Langchain and Plotly."
+      description: "Ask the AI analyst about statistics on different types of crime in Colombia. It will transform your natural language question into a SQLite query and display tables or charts! Powered by OpenAI, Langchain, and Plotly."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
