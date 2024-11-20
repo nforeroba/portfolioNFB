@@ -187,16 +187,16 @@ client_and_work:
         _2x: "img/works/nlplda.jpg"
       is_even: true
 
-    - title: "Spotify - TOP 50 Popular Songs By Daily Rank & Country"
-      description: "See what's hot these days on Spotify! Pick a country (or Global Top 50) and look at the top 50 songs by daily rank."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://nicoforeba.shinyapps.io/Top30onSpoty/"
-      image:
-        x: "img/works/spot.jpg"
-        _2x: "img/works/spot.jpg"
-      is_even: false
+    # - title: "Spotify - TOP 50 Popular Songs By Daily Rank & Country"
+    #   description: "See what's hot these days on Spotify! Pick a country (or Global Top 50) and look at the top 50 songs by daily rank."
+    #   button:
+    #     icon: "icon-arrow-right"
+    #     btnText: "Launch Application"
+    #     URL: "https://nicoforeba.shinyapps.io/Top30onSpoty/"
+    #   image:
+    #     x: "img/works/spot.jpg"
+    #     _2x: "img/works/spot.jpg"
+    #   is_even: false
       
       
 
