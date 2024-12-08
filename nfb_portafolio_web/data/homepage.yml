@@ -6,7 +6,7 @@ showcase:
   enable: true
   title: "Nicolás Forero - Baena"
   subtitle: "Data Scientist (with an actual science background)"
-  description: "Data Science & Gen AI."
+  description: "Data Science & Gen AI"
   image:
     x: "img/showcase/OIG2.jpeg"
     _2x: "img/showcase/OIG2.jpeg"
@@ -32,7 +32,7 @@ about:
   title: "About me:"
   content: 
     <p class="lead">
-    Chemist with a MSc (Master of Science) and a Master's in applied statistics and data science. I have experience in research & development and quality control/analysis in industry, as well as scientific research and teaching. I have worked as a Data Scientist in manufacture, retail and BPO companies. Certified C1 English proficiency (can also be assessed in an interview). 
+    Chemist, MSc, with a Master's in applied statistics and data science. I have experience in research & development and quality control/analysis in industry, as well as scientific research and teaching. I have worked as a Data Scientist in manufacture, retail and BPO companies. Certified C1 English proficiency (can also be assessed in an interview). 
     </p>
     <p class="lead" style="color:green;">
     <strong>Update - I currently work as a Data Scientist for one of the biggest BPO companies of Colombia and LATAM</strong>.
@@ -49,7 +49,7 @@ about:
 experience:
   enable: true
   title: "Experience"
-  description: "Chemist with a MSc (Master of Science) and a Master's in applied statistics and data science. I have experience in research & development and quality control/analysis in industry, as well as scientific research and teaching. I have worked as a Data Scientist in manufacture, retail and BPO companies. Certified C1 English proficiency (can also be assessed in an interview)."
+  description: "Chemist, MSc, with a Master's in applied statistics and data science. I have experience in research & development and quality control/analysis in industry, as well as scientific research and teaching. I have worked as a Data Scientist in manufacture, retail and BPO companies. Certified C1 English proficiency (can also be assessed in an interview)."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
