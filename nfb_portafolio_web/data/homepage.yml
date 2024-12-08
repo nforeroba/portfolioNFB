@@ -6,7 +6,7 @@ showcase:
   enable: true
   title: "Nicolás Forero - Baena"
   subtitle: "Data Scientist (with an actual science background)"
-  description: "Passionate about science, technology, knowledge and a better future."
+  description: "Data Science & Gen AI."
   image:
     x: "img/showcase/OIG2.jpeg"
     _2x: "img/showcase/OIG2.jpeg"
@@ -32,7 +32,7 @@ about:
   title: "About me:"
   content: 
     <p class="lead">
-    I have a background in the sciences and have gained experience in industry, academic research, and teaching. Working with <strong>data</strong>, from experimental design and raw information to insights, is a crucial part of a scientist’s duties. My goal is to work as a <strong>Data Scientist</strong> in the <strong>technological, commercial, financial, biomedical, and governance</strong> sectors. 
+    Chemist with a MSc (Master of Science) and a Master's in applied statistics and data science. I have experience in research & development and quality control/analysis in industry, as well as scientific research and teaching. I have worked as a Data Scientist in manufacture, retail and BPO companies. Certified C1 English proficiency (can also be assessed in an interview). 
     </p>
     <p class="lead" style="color:green;">
     <strong>Update - I currently work as a Data Scientist for one of the biggest BPO companies of Colombia and LATAM</strong>.
@@ -49,7 +49,7 @@ about:
 experience:
   enable: true
   title: "Experience"
-  description: "Experienced in research & development and quality control/analysis in industry, as well as academic research and teaching. Have worked as a Data Scientist in manufacture, retail and BPO companies. Certified C1 English proficiency (can also be assessed in an interview)."
+  description: "Chemist with a MSc (Master of Science) and a Master's in applied statistics and data science. I have experience in research & development and quality control/analysis in industry, as well as scientific research and teaching. I have worked as a Data Scientist in manufacture, retail and BPO companies. Certified C1 English proficiency (can also be assessed in an interview)."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -87,14 +87,14 @@ education:
   title: "Education"
   items:
     - university: "Master's in Applied Statistics and Data Science"
-      year: "2023 - in progress"
+      year: "2023 - 2024 (graduation pending, meritorious thesis) "
       degree: "El Bosque University (UEB)"
       
     - university: "Data Science for Business + AI Apps Development"
       year: "2023 - continuous"
       degree: "Business Science University"
       
-    - university: "Master's in Sciences - Biochemistry (merits)"
+    - university: "Master of Science - Biochemistry (meritorious thesis)"
       year: "2013 - 2015"
       degree: "National University of Colombia (UNAL)"
       
