@@ -4,7 +4,7 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "Nicolás Forero - Baena"
+  title: "Nicolás Forero-Baena"
   subtitle: "Data Scientist (with an actual science background)"
   description: "Data Science & Gen AI"
   image:
@@ -252,5 +252,5 @@ contact:
     
   email:
     title: "E-mails"
-    email: '<a href="mailto:nforerob@unal.edu.co">nforerob@unal.edu.co</a>, <a href="mailto:nforeroba@unbosque.edu.co">nforeroba@unbosque.edu.co</a>'
+    email: '<a href="mailto:nforerob@unal.edu.co">nforerob@unal.edu.co</a>, <a href="mailto:nikorasu.fb@outlook.com">nikorasu.fb@outlook.com</a>'
     
