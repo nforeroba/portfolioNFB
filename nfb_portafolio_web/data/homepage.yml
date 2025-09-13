@@ -34,9 +34,9 @@ about:
     <p class="lead">
     Chemist, MSc, with a Master's in applied statistics and data science. I have experience in research & development and quality control/analysis in industry, as well as scientific research and teaching. I have worked as a Data Scientist and AI Developer in manufacture, retail and BPO companies. Certified C1 English proficiency (can be assessed in an interview). 
     </p>
-    <p class="lead" style="color:blue;">
-    <strong>UPDATE - Reloading...</strong>.
-    </p>    
+    # <p class="lead" style="color:blue;">
+    # <strong>UPDATE - Reloading...</strong>.
+    # </p>    
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
