@@ -105,9 +105,6 @@ st.markdown("---")
 
 # Sidebar with user input
 with st.sidebar:
-    st.header("⚙️ Configuration")
-    st.markdown("---")
-    
     st.markdown("**👋 ¡Hola! Hello! Hallo! こんにちは！**")
     st.info("I used NLP (Gensim, NLTK) to analyze raw survey data related to smartphone feature preferences.")
     
@@ -129,8 +126,9 @@ with st.sidebar:
     )
     
     st.markdown("---")
-    st.markdown("**Created by:** Nicolás Forero")
-    st.markdown("[GitHub](https://github.com/nforeroba) | [Portfolio](https://nforeroba.github.io/portfolioNFB/)")
+    st.markdown("**Created by:** Nicolás Forero Baena")
+    st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/nforeroba/portfolioNFB)")
+    st.markdown("[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://nicolasfbportfolio.netlify.app/)")
 
 # Generate LDA model
 tokenized_text = df_bigram['tokens']
@@ -142,6 +140,30 @@ tab1, tab2, tab3 = st.tabs(["📊 Topic Modeling Visualization", "☁️ Word Cl
 with tab1:
     st.subheader("Interactive Topic Model (LDA) Visualization")
     st.markdown("Explore the relationships between topics and their most relevant terms.")
+    
+    # Lambda parameter explanation
+    with st.expander("ℹ️ Understanding the Lambda Parameter (λ)", expanded=False):
+        st.markdown("""
+        The **lambda (λ)** slider in the visualization controls how terms are ranked for each topic:
+        
+        **λ = 1 (Default):**
+        - Shows terms ranked by their **probability within the topic**
+        - Highlights words that appear frequently in a specific topic
+        - Good for understanding the overall theme of a topic
+        - May show common words that appear across multiple topics
+        
+        **λ = 0:**
+        - Shows terms ranked by their **exclusivity to the topic**
+        - Highlights words that are unique or distinctive to that topic
+        - Useful for identifying what makes each topic different from others
+        - May show less frequent but more discriminative terms
+        
+        **Intermediate values (0 < λ < 1):**
+        - Provide a balance between frequency and exclusivity
+        - λ ≈ 0.6 is often recommended for optimal interpretation
+        
+        💡 **Tip:** Try adjusting the lambda slider in the visualization to explore both common and distinctive terms for each topic!
+        """)
     
     # Adjust visualization size based on screen
     col1, col2, col3 = st.columns([1, 10, 1])
@@ -213,14 +235,3 @@ with tab3:
                     topic_df.set_index('Word')['Weight'],
                     height=400
                 )
-
-# Footer
-st.markdown("---")
-st.markdown(
-    """
-    <div style='text-align: center; color: #666; padding: 20px;'>
-        <p>📊 Built with Streamlit | 🔤 NLP with Gensim & NLTK | 📱 Smartphone Survey Analysis</p>
-    </div>
-    """, 
-    unsafe_allow_html=True
-)
