@@ -86,4 +86,4 @@ selected_topic -= 1  # Adjust to zero-based index
 words_in_topic = lda_model.show_topic(selected_topic, topn=num_words_input)
 topic_word_freq = {word: freq for word, freq in words_in_topic}
 wordcloud = WordCloud(width=1000, height=1000, background_color='white').generate_from_frequencies(topic_word_freq)
-st.image(wordcloud.to_array(), caption=f'Topic {selected_topic + 1}', width=800)
+st.image(wordcloud.to_image(), caption=f'Topic {selected_topic + 1}', width=800)
