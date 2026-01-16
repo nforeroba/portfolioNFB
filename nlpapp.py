@@ -1,4 +1,4 @@
-# Import necessary libraries
+# Dependencias
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
@@ -13,7 +13,7 @@ import pyLDAvis.gensim_models
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-# Page configuration - MUST BE FIRST STREAMLIT COMMAND
+# Modo amplio de Streamlit por defecto
 st.set_page_config(
     page_title="Smartphone Survey Analysis",
     page_icon="📱",
@@ -21,7 +21,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for better styling
+# CSS para personalizar la apariencia
 st.markdown("""
     <style>
     .main {
@@ -39,7 +39,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Download NLTK stopwords
+# NLTK stopwords
 @st.cache_resource
 def download_stopwords():
     nltk.download("stopwords", quiet=True)
@@ -47,14 +47,11 @@ def download_stopwords():
 
 stop_words = download_stopwords()
 
-# Load and process data
+# Cargar y procesar datos encuesta
 @st.cache_data
 def load_and_process_data():
-    # Load the survey data
     csv_url = 'https://raw.githubusercontent.com/nforeroba/portfolioNFB/main/smartphone_encuesta_CGPT.csv'
     df = pd.read_csv(csv_url)
-    
-    # Reshape survey data
     df_restr = df.set_axis(['resp_1', 'resp_2', 'resp_3', 'resp_4'], axis='columns').melt(
         value_vars=['resp_1', 'resp_2', 'resp_3', 'resp_4'],
         var_name='resp'
@@ -66,15 +63,13 @@ def load_and_process_data():
         l = gensim.utils.simple_preprocess(str(survey_response))
         tokens.append(l)
     
-    # Remove stopwords from survey tokens
+    # Remover stopwords
     tokens_stopwords_removed = [[word for word in i if word == 'under' or word not in stop_words] for i in tokens]
     
-    # Bigram formation
+    # Formación de bigramas
     bigram = gensim.models.Phrases(tokens_stopwords_removed, min_count=3, threshold=6, delimiter="-")
     bigram_mod = gensim.models.phrases.Phraser(bigram)
     bigram_list = [bigram_mod[i] for i in tokens_stopwords_removed]
-    
-    # Add monogram and bigram tokens to the reshaped df
     df_bigram = df_restr.copy()
     df_bigram['tokens'] = bigram_list
     
@@ -82,7 +77,7 @@ def load_and_process_data():
 
 df_bigram = load_and_process_data()
 
-# Create LDA model
+# Modelo LDA (Latent Dirichlet Allocation)
 @st.cache_resource
 def create_lda_model(num_topics, tokenized_text):
     dictionary = corpora.Dictionary(tokenized_text)
@@ -100,13 +95,13 @@ def create_lda_model(num_topics, tokenized_text):
 
 # Header
 st.title("📱 Smartphone Features Survey Analysis")
-st.markdown("### What do consumers want?")
+st.markdown("### What do consumers want from their smartphones?")
 st.markdown("---")
 
-# Sidebar with user input
+# Panel lateral
 with st.sidebar:
-    st.markdown("**👋 ¡Hola! Hello! Hallo! こんにちは！**")
-    st.info("I used NLP (Gensim, NLTK) to analyze raw survey data related to smartphone feature preferences.")
+    st.markdown("**¡Hola! Hello! Hallo! こんにちは！👋**")
+    st.info("I used NLP (Gensim, NLTK) to analyze raw survey data related to smartphone feature preferences. I also used LDA (Latent Dirichlet Allocation) for topic modeling to identify key themes and visualize them with pyLDAvis and WordClouds.")
     
     st.markdown("---")
     num_topics_input = st.number_input(
@@ -130,18 +125,17 @@ with st.sidebar:
     st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/nforeroba/portfolioNFB)")
     st.markdown("[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://nicolasfbportfolio.netlify.app/)")
 
-# Generate LDA model
 tokenized_text = df_bigram['tokens']
 lda_model, corpus, dictionary = create_lda_model(num_topics_input, tokenized_text)
 
-# Create tabs for better organization
+# Pestañas de visualización
 tab1, tab2, tab3 = st.tabs(["📊 Topic Modeling Visualization", "☁️ Word Clouds by Topic", "📈 Topic Summary"])
 
 with tab1:
     st.subheader("Interactive Topic Model (LDA) Visualization")
     st.markdown("Explore the relationships between topics and their most relevant terms.")
     
-    # Lambda parameter explanation
+    # Explicación del parámetro lambda
     with st.expander("ℹ️ Understanding the Lambda Parameter (λ)", expanded=False):
         st.markdown("""
         The **lambda (λ)** slider in the visualization controls how terms are ranked for each topic:
@@ -165,7 +159,6 @@ with tab1:
         💡 **Tip:** Try adjusting the lambda slider in the visualization to explore both common and distinctive terms for each topic!
         """)
     
-    # Adjust visualization size based on screen
     col1, col2, col3 = st.columns([1, 10, 1])
     with col2:
         vis = pyLDAvis.gensim_models.prepare(lda_model, corpus, dictionary)
@@ -176,7 +169,7 @@ with tab2:
     st.subheader("Word Clouds for Each Topic")
     st.markdown("Visual representation of the most important words in each topic.")
     
-    # Create grid of word clouds
+    # Grilla de nubes de palabras
     num_cols = 2 if num_topics_input >= 4 else 1
     
     for row in range((num_topics_input + num_cols - 1) // num_cols):
@@ -188,7 +181,7 @@ with tab2:
                     words_in_topic = lda_model.show_topic(topic_idx, topn=num_words_input)
                     topic_word_freq = {word: freq for word, freq in words_in_topic}
                     
-                    # Create wordcloud
+                    # Crear la nube de palabras
                     wordcloud = WordCloud(
                         width=800, 
                         height=600, 
@@ -198,7 +191,7 @@ with tab2:
                         min_font_size=10
                     ).generate_from_frequencies(topic_word_freq)
                     
-                    # Display using matplotlib for better control
+                    # Visualizar la nube de palabras
                     fig, ax = plt.subplots(figsize=(10, 7))
                     ax.imshow(wordcloud, interpolation='bilinear')
                     ax.axis('off')
@@ -210,12 +203,12 @@ with tab3:
     st.subheader("Topic Summary")
     st.markdown("Top words and their weights for each topic.")
     
-    # Create expandable sections for each topic
+    # Visualización de resumen de temas
     for topic_idx in range(num_topics_input):
         with st.expander(f"📌 Topic {topic_idx + 1}", expanded=(topic_idx == 0)):
             words_in_topic = lda_model.show_topic(topic_idx, topn=15)
             
-            # Create a dataframe for better display
+            # DataFrame de palabras y pesos
             topic_df = pd.DataFrame(words_in_topic, columns=['Word', 'Weight'])
             topic_df['Weight'] = topic_df['Weight'].round(4)
             topic_df.index = range(1, len(topic_df) + 1)
@@ -230,7 +223,7 @@ with tab3:
                 )
             
             with col2:
-                # Bar chart of top words
+                # Gráfico de barras de pesos de palabras
                 st.bar_chart(
                     topic_df.set_index('Word')['Weight'],
                     height=400
