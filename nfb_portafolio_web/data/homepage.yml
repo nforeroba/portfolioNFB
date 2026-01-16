@@ -5,8 +5,8 @@ head:
 showcase:
   enable: true
   title: "Nicolás Forero-Baena"
-  subtitle: "Data Scientist (with an actual science background)"
-  description: "Data Scientist & GenAI Developer"
+  subtitle: "Data Scientist | AI Engineering | Generative AI Development"
+  #description: "Data Scientist & GenAI Developer"
   image:
     x: "img/showcase/OIG2.jpeg"
     _2x: "img/showcase/OIG2.jpeg"
