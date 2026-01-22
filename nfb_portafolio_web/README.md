@@ -122,3 +122,4 @@ If you want a version that feels meaningfully more premium (and helps fund open 
 ---
 
 MIT © 2016–Present [George Cushen](https://neuralgeo.com/?utm_source=github&utm_medium=readme)
+
