@@ -2,17 +2,16 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Nicolás Forero-Baena
+  given: Nicolás
+  family: Forero-Baena
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
+role: Data Scientist, AI Engineer & Developer
 email: alex@example.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Data Scientist, AI Engineer & Developer. I have worked for BPO (debt collection), manufacture and retail companies. B.Sc, M.Sc, with a Master's in applied statistics and data science. C1 English proficiency.
 
 affiliations:
   - name: Tech Corp
@@ -20,20 +19,22 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: mailto:nikorasu.fb@outlook.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/nforeroba/portfolioNFB.git
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/
+  # - icon: brands/x
+  #   url: https://x.com/alexjohnson
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - AI Engineering
+  - Data Science
+  - Machine Learning
+  - Deep Learning
+  - OCR Technology
+  - Speech Synthesis
 
 education:
   - degree: B.S. Computer Science
