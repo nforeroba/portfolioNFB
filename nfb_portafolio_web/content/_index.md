@@ -22,14 +22,14 @@ sections:
         enable: true
         prefix: "I have worked on"
         strings:
-          - "AI-powered chatbots"
-          - "document intelligence systems with AI vision-language models"
-          - "voice cloning & speech synthesis for AI bots"
-          - "machine learning for predictive optimization"
-          - "webscraping for market research"
+          - "AI-powered Q&A systems"
+          - "document intelligence with VLMs"
+          - "voice cloning & speech synthesis"
+          - "ML for predictive optimization"
+          - "web scraping for market research"
         type_speed: 80
         delete_speed: 50
-        pause_time: 2500
+        pause_time: 2300
       cta_buttons:
         - text: View My Work
           url: "#projects"
