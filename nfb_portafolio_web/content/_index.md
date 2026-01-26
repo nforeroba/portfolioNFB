@@ -22,11 +22,11 @@ sections:
         enable: true
         prefix: "I build"
         strings:
+          - "AI web apps"
+          - "AI on-premises apps"
           - "machine learning processes"
-          - "AI-powered on-premises apps"
-          - "AI-powered web apps"
           - "OCR apps"
-          - "Speech synthesis apps
+          - "Speech synthesis apps"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
