@@ -23,14 +23,14 @@ sections:
         prefix: "I have worked on"
         strings:
           - "LLM-powered Q&A systems"
-          - "document intelligence with vision-language AI models"
+          - "document intelligence with VLMs"
           - "voice cloning & speech synthesis"
           - "ML for predictive process optimization"
-          - "on-premises deployment of WebSocket and batch AI services"
-          - "web scraping for price monitoring and market research"
-        type_speed: 80
-        delete_speed: 80
-        pause_time: 1500
+          - "deployment of WebSocket & batch AI services"
+          - "web scraping for price monitoring & market research"
+        type_speed: 100
+        delete_speed: 200
+        pause_time: 1000
       cta_buttons:
         - text: View My Work
           url: "#projects"
@@ -240,7 +240,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **AI engineering**, **AI development** & **Data Science** roles.
+        I'm looking for **AI engineering**, **AI development** & **Data Science** roles.
         
         Let's connect and discuss how I can help your team.
       button:
