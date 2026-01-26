@@ -9,17 +9,17 @@ postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
 role: Data Scientist, AI Engineer & Developer
-email: nforerob@unal.edu.co
+email: nikorasu.fb@outlook.com
 bio: |
   Data Scientist, AI Engineer & Developer. I have worked for BPO (debt collection), manufacture and retail companies. B.Sc, M.Sc, with a Master's in applied statistics and data science. C1 English proficiency.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: Nicolás Forero-Baena
+    url: https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/
 
 links:
   - icon: at-symbol
-    url: mailto:nforerob@unal.edu.co
+    url: mailto:nikorasu.fb@outlook.com
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/nforeroba/portfolioNFB.git
@@ -35,7 +35,8 @@ interests:
   - Deep Learning
   - OCR Technology
   - Speech Synthesis
-
+  - PC Building
+  - Open Source
 education:
   - degree: B.S. Computer Science
     institution: State University
