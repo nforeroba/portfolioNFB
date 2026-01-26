@@ -22,10 +22,11 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "machine learning processes"
+          - "AI-powered on-premises apps"
+          - "AI-powered web apps"
+          - "OCR apps"
+          - "Speech synthesis apps
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -222,7 +223,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: nforerob@unal.edu.co
       autolink: true
     design:
       columns: '1'
@@ -243,7 +244,7 @@ sections:
         Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'
-        url: uploads/resume.pdf
+        url: uploads/nicolas_forero_baena_resume_2026.pdf
         new_tab: true
     design:
       card:

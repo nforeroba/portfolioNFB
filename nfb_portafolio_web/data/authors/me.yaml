@@ -9,7 +9,7 @@ postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
 role: Data Scientist, AI Engineer & Developer
-email: alex@example.com
+email: nforerob@unal.edu.co
 bio: |
   Data Scientist, AI Engineer & Developer. I have worked for BPO (debt collection), manufacture and retail companies. B.Sc, M.Sc, with a Master's in applied statistics and data science. C1 English proficiency.
 
@@ -19,7 +19,7 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:nikorasu.fb@outlook.com
+    url: mailto:nforerob@unal.edu.co
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/nforeroba/portfolioNFB.git
