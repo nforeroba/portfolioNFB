@@ -20,15 +20,15 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I have worked on"
         strings:
-          - "AI web apps"
-          - "AI on-premises apps"
-          - "machine learning processes"
-          - "OCR apps"
-          - "Speech synthesis apps"
-        type_speed: 70
-        delete_speed: 40
+          - "AI-powered chatbots"
+          - "document intelligence systems with AI vision-language models"
+          - "voice cloning & speech synthesis for AI bots"
+          - "machine learning for predictive optimization"
+          - "webscraping for market research"
+        type_speed: 80
+        delete_speed: 50
         pause_time: 2500
       cta_buttons:
         - text: View My Work
@@ -196,7 +196,7 @@ sections:
     id: blog
     content:
       title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
+      subtitle: 'Thoughts on AI, technology, science and more'
       text: ''
       filters:
         folders:
@@ -223,7 +223,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: nforerob@unal.edu.co
+      email: nikorasu.fb@outlook.com
       autolink: true
     design:
       columns: '1'
@@ -239,7 +239,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm currently looking for **AI engineering**, **AI development** & **Data Science** roles.
         
         Let's connect and discuss how I can help your team.
       button:
