@@ -29,7 +29,7 @@ sections:
           - "deployment of WebSocket & batch AI services"
           - "web scraping for price monitoring & market research"
         type_speed: 50
-        delete_speed: 50
+        delete_speed: 40
         pause_time: 1000
       cta_buttons:
         - text: View My Work
