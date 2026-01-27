@@ -88,48 +88,176 @@ sections:
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      subtitle: "Technologies I've used to build AI/ML applications (web or on-premises)"
       categories:
-        - name: Languages
+        - name: AI Hardware
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
+            - name: NVIDIA
+              icon: custom/nvidia.png
+        - name: Languages & Core
+          items:
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+            - name: R
+              icon: devicon/r
+            - name: Bash
+              icon: devicon/bash
+            - name: PowerShell
+              icon: devicon/powershell
+            - name: Markdown
+              icon: devicon/markdown
+            - name: JSON
+              icon: devicon/json
+            - name: NVIDIA
+              icon: custom/nvidia.png
+            - name: Hugging Face
+              icon: custom/huggingface.png
+        - name: Data Science & ML
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
+            - name: NumPy
+              icon: devicon/numpy
+            - name: Pandas
+              icon: devicon/pandas
+            - name: Scikit-learn
+              icon: devicon/scikitlearn
+            - name: PyTorch
+              icon: devicon/pytorch
+            - name: Matplotlib
+              icon: devicon/matplotlib
+            - name: Plotly
+              icon: devicon/plotly
+            - name: Kaggle
+              icon: devicon/kaggle
+        - name: Natural Language Processing (NLP)
           items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
+            - name: Gensim
+              icon: custom/gensim.png
+            - name: NLTK
+              icon: custom/nltk.png
+            - name: Hugging Face Transformers
+              icon: custom/huggingface.png
+        - name: GenAI & LLMs
+          items:
+            - name: LangChain
+              icon: custom/langchain.png
+            - name: LangGraph
+              icon: custom/langgraph.png
+            - name: Claude AI (Anthropic)
+              icon: custom/claudeai.png
+            - name: Open AI API
+              icon: custom/openai.png
+            - name: Gemini AI (Google)
+              icon: custom/geminiai.png
+            - name: Mistral AI
+              icon: custom/mistralai.png
+            - name: Ollama
+              icon: custom/ollama.png
+            - name: Nano Banana
+              icon: custom/nanobanana.png
+            - name: DALL-E
+              icon: custom/openai.png
+            - name: ChromaDB
+              icon: custom/chromadb.png
+        - name: Computer Vision
+          items:
+            - name: OpenCV
+              icon: devicon/opencv
+            - name: Roboflow
+              icon: custom/roboflow.png
+        - name: Audio Edition & Speech Synthesis
+          items:
+            - name: Fish Audio
+              icon: custom/fishaudio.png
+            - name: Audacity
+              icon: custom/audacity.png
+        - name: Web & APIs
+          items:
+            - name: FastAPI
+              icon: devicon/fastapi
+            - name: Streamlit
+              icon: devicon/streamlit
+            - name: aiohttp
+              icon: custom/aiohttp.png
+            - name: Shiny
+              icon: custom/shiny.png
+            - name: Hugo
+              icon: devicon/hugo
+            - name: Netlify
+              icon: devicon/netlify
+        - name: Databases
+          items:
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: MySQL
+              icon: devicon/mysql
+            - name: SQLite
+              icon: devicon/sqlite
+            - name: ClickHouse
+              icon: devicon/clickhouse
+        - name: Dev Tools & IDEs
           items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices-wordmark
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: VS Code
+              icon: devicon/vscode
+            - name: Jupyter
+              icon: devicon/jupyter
+            - name: Anaconda
+              icon: devicon/anaconda
+            - name: RStudio
+              icon: devicon/rstudio
+            - name: Spyder
+              icon: devicon/spyder
+            - name: DBeaver
+              icon: devicon/dbeaver
+        - name: DevOps & Infrastructure
+          items:
+            - name: Git
+              icon: devicon/git
+            - name: GitHub
+              icon: devicon/github
+            - name: Linux
+              icon: devicon/linux
+            - name: Ubuntu
+              icon: devicon/ubuntu
+            - name: Debian
+              icon: devicon/debian
+            - name: Windows 11
+              icon: devicon/windows11
+            - name: SSH
+              icon: devicon/ssh
+            - name: PuTTY
+              icon: devicon/putty
+            - name: FileZilla
+              icon: devicon/filezilla
+        - name: Team Communication
+          items:
+            - name: Slack
+              icon: devicon/slack
+            - name: Discord
+              icon: custom/discord.png
+        - name: Web Scraping
+          items:
+            - name: Selenium
+              icon: devicon/selenium
+            - name: Beautiful Soup
+              icon: custom/beautifulsoup.png
+            - name: Octoparse
+              icon: custom/octoparse.png
+            - name: ParseHub
+              icon: custom/parsehub.png
+        - name: My Learning Platforms
+          items:
+            - name: Udemy
+              icon: custom/udemy.png
+            - name: Coursera
+              icon: custom/coursera.png
+            - name: Business Science University
+              icon: custom/bsu.png
+            - name: Machine Learning School
+              icon: custom/mls.png
+            - name: DeepLearning.AI
+              icon: custom/deeplearningai.png
+            - name: YouTube
+              icon: custom/youtube.png
     design:
       style: grid
       show_levels: false
