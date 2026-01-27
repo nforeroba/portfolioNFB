@@ -101,7 +101,7 @@ sections:
             - name: R
               icon: devicon/r
             - name: Bash
-              icon: devicon/bash
+              icon: brands/bash
             - name: PowerShell
               icon: devicon/powershell
             - name: Markdown
@@ -193,7 +193,7 @@ sections:
             - name: SQLite
               icon: devicon/sqlite
             - name: ClickHouse
-              icon: devicon/clickhouse
+              icon: brands/clickhouse
         - name: Dev Tools & IDEs
           items:
             - name: VS Code
