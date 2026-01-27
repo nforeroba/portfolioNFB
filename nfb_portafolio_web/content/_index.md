@@ -101,11 +101,11 @@ sections:
             - name: R
               icon: devicon/r
             - name: Bash
-              icon: devicon/bash
+              icon: brands/gnubash
             - name: PowerShell
               icon: devicon/powershell
             - name: Markdown
-              icon: devicon/markdown
+              icon: brands/markdown
             - name: JSON
               icon: devicon/json
             - name: NVIDIA
@@ -223,7 +223,7 @@ sections:
             - name: Windows 11
               icon: devicon/windows11
             - name: SSH
-              icon: devicon/ssh
+              icon: custom/ssh
             - name: PuTTY
               icon: devicon/putty
             - name: FileZilla
