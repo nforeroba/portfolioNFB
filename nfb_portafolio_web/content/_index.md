@@ -101,7 +101,7 @@ sections:
             - name: R
               icon: devicon/r
             - name: Bash
-              icon: brands/gnubash
+              icon: devicon/bash
             - name: PowerShell
               icon: devicon/powershell
             - name: Markdown
