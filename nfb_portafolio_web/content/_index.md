@@ -101,7 +101,7 @@ sections:
             - name: R
               icon: devicon/r
             - name: Bash
-              icon: brands/bash
+              icon: custom/bash
             - name: PowerShell
               icon: devicon/powershell
             - name: Markdown
@@ -193,7 +193,7 @@ sections:
             - name: SQLite
               icon: devicon/sqlite
             - name: ClickHouse
-              icon: brands/clickhouse
+              icon: custom/clickhouse
         - name: Dev Tools & IDEs
           items:
             - name: VS Code
@@ -238,8 +238,6 @@ sections:
           items:
             - name: Selenium
               icon: devicon/selenium
-            - name: Beautiful Soup
-              icon: custom/beautifulsoup
             - name: Octoparse
               icon: custom/octoparse
             - name: ParseHub
