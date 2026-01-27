@@ -93,7 +93,7 @@ sections:
         - name: AI Hardware
           items:
             - name: NVIDIA
-              icon: custom/nvidia.png
+              icon: custom/nvidia
         - name: Languages & Core
           items:
             - name: Python
@@ -109,9 +109,9 @@ sections:
             - name: JSON
               icon: devicon/json
             - name: NVIDIA
-              icon: custom/nvidia.png
+              icon: custom/nvidia
             - name: Hugging Face
-              icon: custom/huggingface.png
+              icon: custom/huggingface
         - name: Data Science & ML
           items:
             - name: NumPy
@@ -131,45 +131,45 @@ sections:
         - name: Natural Language Processing (NLP)
           items:
             - name: Gensim
-              icon: custom/gensim.png
+              icon: custom/gensim
             - name: NLTK
-              icon: custom/nltk.png
+              icon: custom/nltk
             - name: Hugging Face Transformers
-              icon: custom/huggingface.png
+              icon: custom/huggingface
         - name: GenAI & LLMs
           items:
             - name: LangChain
-              icon: custom/langchain.png
+              icon: custom/langchain
             - name: LangGraph
-              icon: custom/langgraph.png
+              icon: custom/langgraph
             - name: Claude AI (Anthropic)
-              icon: custom/claudeai.png
+              icon: custom/claudeai
             - name: Open AI API
-              icon: custom/openai.png
+              icon: custom/openai
             - name: Gemini AI (Google)
-              icon: custom/geminiai.png
+              icon: custom/geminiai
             - name: Mistral AI
-              icon: custom/mistralai.png
+              icon: custom/mistralai
             - name: Ollama
-              icon: custom/ollama.png
+              icon: custom/ollama
             - name: Nano Banana
-              icon: custom/nanobanana.png
+              icon: custom/nanobanana
             - name: DALL-E
-              icon: custom/openai.png
+              icon: custom/openai
             - name: ChromaDB
-              icon: custom/chromadb.png
+              icon: custom/chromadb
         - name: Computer Vision
           items:
             - name: OpenCV
               icon: devicon/opencv
             - name: Roboflow
-              icon: custom/roboflow.png
+              icon: custom/roboflow
         - name: Audio Edition & Speech Synthesis
           items:
             - name: Fish Audio
-              icon: custom/fishaudio.png
+              icon: custom/fishaudio
             - name: Audacity
-              icon: custom/audacity.png
+              icon: custom/audacity
         - name: Web & APIs
           items:
             - name: FastAPI
@@ -177,9 +177,9 @@ sections:
             - name: Streamlit
               icon: devicon/streamlit
             - name: aiohttp
-              icon: custom/aiohttp.png
+              icon: custom/aiohttp
             - name: Shiny
-              icon: custom/shiny.png
+              icon: custom/shiny
             - name: Hugo
               icon: devicon/hugo
             - name: Netlify
@@ -233,31 +233,31 @@ sections:
             - name: Slack
               icon: devicon/slack
             - name: Discord
-              icon: custom/discord.png
+              icon: custom/discord
         - name: Web Scraping
           items:
             - name: Selenium
               icon: devicon/selenium
             - name: Beautiful Soup
-              icon: custom/beautifulsoup.png
+              icon: custom/beautifulsoup
             - name: Octoparse
-              icon: custom/octoparse.png
+              icon: custom/octoparse
             - name: ParseHub
-              icon: custom/parsehub.png
+              icon: custom/parsehub
         - name: My Learning Platforms
           items:
             - name: Udemy
-              icon: custom/udemy.png
+              icon: custom/udemy
             - name: Coursera
-              icon: custom/coursera.png
+              icon: custom/coursera
             - name: Business Science University
-              icon: custom/bsu.png
+              icon: custom/bsu
             - name: Machine Learning School
-              icon: custom/mls.png
+              icon: custom/mls
             - name: DeepLearning.AI
-              icon: custom/deeplearningai.png
+              icon: custom/deeplearningai
             - name: YouTube
-              icon: custom/youtube.png
+              icon: custom/youtube
     design:
       style: grid
       show_levels: false
