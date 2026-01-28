@@ -108,10 +108,8 @@ sections:
               icon: brands/markdown
             - name: JSON
               icon: devicon/json
-            - name: NVIDIA
+            - name: NVIDIA SMI
               icon: custom/nvidia
-            - name: Hugging Face
-              icon: custom/huggingface
         - name: Data Science & ML
           items:
             - name: NumPy
@@ -122,8 +120,6 @@ sections:
               icon: devicon/scikitlearn
             - name: PyTorch
               icon: devicon/pytorch
-            - name: Matplotlib
-              icon: devicon/matplotlib
             - name: Plotly
               icon: devicon/plotly
             - name: Kaggle
