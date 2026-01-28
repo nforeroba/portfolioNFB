@@ -128,7 +128,7 @@ sections:
               icon: devicon/plotly
             - name: Kaggle
               icon: devicon/kaggle
-        - name: Natural Language Processing (NLP)
+        - name: Natural Language Processing
           items:
             - name: Gensim
               icon: custom/gensim
@@ -204,8 +204,6 @@ sections:
               icon: devicon/anaconda
             - name: RStudio
               icon: devicon/rstudio
-            - name: Spyder
-              icon: devicon/spyder
             - name: DBeaver
               icon: devicon/dbeaver
         - name: DevOps & Infrastructure
@@ -218,8 +216,6 @@ sections:
               icon: devicon/linux
             - name: Ubuntu
               icon: devicon/ubuntu
-            - name: Debian
-              icon: devicon/debian
             - name: Windows 11
               icon: devicon/windows11
             - name: SSH
