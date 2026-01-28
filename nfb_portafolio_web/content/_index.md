@@ -112,6 +112,8 @@ sections:
               icon: custom/nvidia
             - name: Hugging Face
               icon: custom/huggingface
+            - name: SAP ERP
+              icon: brands/sap
         - name: Data Science & ML
           items:
             - name: NumPy
