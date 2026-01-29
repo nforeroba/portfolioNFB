@@ -37,7 +37,7 @@ sections:
           icon: arrow-down
         - text: Get In Touch
           url: "#contact"
-          icon: envelope
+          icon: paper-airplane
     design:
       style: centered
       avatar_shape: circle
