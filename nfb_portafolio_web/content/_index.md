@@ -212,8 +212,8 @@ sections:
               icon: devicon/ubuntu
             - name: Windows 11
               icon: devicon/windows11
-            - name: SSH
-              icon: custom/ssh
+            # - name: SSH
+            #   icon: custom/ssh
             - name: PuTTY
               icon: devicon/putty
             - name: FileZilla
