@@ -100,14 +100,14 @@ sections:
               icon: devicon/python
             - name: R
               icon: devicon/r
-            - name: Bash
-              icon: custom/bash
-            - name: PowerShell
-              icon: devicon/powershell
+            # - name: Bash
+            #   icon: custom/bash
+            # - name: PowerShell
+            #   icon: devicon/powershell
             - name: Markdown
               icon: brands/markdown
-            - name: JSON
-              icon: devicon/json
+            # - name: JSON
+            #   icon: devicon/json
             - name: NVIDIA SMI
               icon: custom/nvidia
         - name: Data Science & ML
@@ -138,11 +138,11 @@ sections:
               icon: custom/langchain
             - name: LangGraph
               icon: custom/langgraph
-            - name: Claude AI (Anthropic)
+            - name: Claude AI
               icon: custom/claudeai
             - name: Open AI API
               icon: custom/openai
-            - name: Gemini AI (Google)
+            - name: Gemini AI
               icon: custom/geminiai
             - name: Mistral AI
               icon: custom/mistralai
@@ -150,8 +150,8 @@ sections:
               icon: custom/ollama
             - name: Nano Banana
               icon: custom/nanobanana
-            - name: DALL-E
-              icon: custom/openai
+            # - name: DALL-E
+            #   icon: custom/openai
             - name: ChromaDB
               icon: custom/chromadb
         - name: Computer Vision
@@ -214,8 +214,8 @@ sections:
               icon: devicon/ubuntu
             - name: Windows 11
               icon: devicon/windows11
-            - name: SSH
-              icon: custom/ssh
+            # - name: SSH
+            #   icon: custom/ssh
             - name: PuTTY
               icon: devicon/putty
             - name: FileZilla
