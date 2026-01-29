@@ -18,7 +18,7 @@ affiliations:
     url: https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/
 
 links:
-  - icon: at-symbol
+  - icon: envelope
     url: mailto:nikorasu.fb@outlook.com
     label: E-mail Me
   - icon: brands/github
