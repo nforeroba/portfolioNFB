@@ -94,20 +94,20 @@ sections:
           items:
             - name: NVIDIA
               icon: custom/nvidia
-        - name: Languages & Core
+        - name: Languages & Core Tools
           items:
             - name: Python
               icon: devicon/python
             - name: R
               icon: devicon/r
-            # - name: Bash
-            #   icon: custom/bash
-            # - name: PowerShell
-            #   icon: devicon/powershell
+            - name: Bash
+              icon: custom/bash
+            - name: PowerShell
+              icon: devicon/powershell
             - name: Markdown
               icon: brands/markdown
-            # - name: JSON
-            #   icon: devicon/json
+            - name: JSON
+              icon: devicon/json
             - name: NVIDIA SMI
               icon: custom/nvidia
         - name: Data Science & ML
@@ -132,7 +132,7 @@ sections:
               icon: custom/nltk
             - name: Hugging Face Transformers
               icon: custom/huggingface
-        - name: GenAI & LLMs
+        - name: GenAI
           items:
             - name: LangChain
               icon: custom/langchain
@@ -140,7 +140,7 @@ sections:
               icon: custom/langgraph
             - name: Claude AI
               icon: custom/claudeai
-            - name: Open AI API
+            - name: Open AI
               icon: custom/openai
             - name: Gemini AI
               icon: custom/geminiai
@@ -150,8 +150,6 @@ sections:
               icon: custom/ollama
             - name: Nano Banana
               icon: custom/nanobanana
-            # - name: DALL-E
-            #   icon: custom/openai
             - name: ChromaDB
               icon: custom/chromadb
         - name: Computer Vision
@@ -214,8 +212,8 @@ sections:
               icon: devicon/ubuntu
             - name: Windows 11
               icon: devicon/windows11
-            # - name: SSH
-            #   icon: custom/ssh
+            - name: SSH
+              icon: custom/ssh
             - name: PuTTY
               icon: devicon/putty
             - name: FileZilla
