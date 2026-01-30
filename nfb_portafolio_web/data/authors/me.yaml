@@ -58,21 +58,21 @@ experience:
     start: 2024-07-15
     end: 2025-08-29
     summary: |
-      *Test
+      * Test
   - role: Data Scientist (contractor/consultant)
     org: IMPSERCOM S.A.S / Espumados Group
     icon: custom/espumados
     start: 2024-01-22
     end: 2024-04-22
     summary: |
-      *Test
+      * Test
   - role: R&D | QC | QA Scientist (full-time)
     org: Bank of the Republic (Colombia) - BRC
     icon: custom/banrep
     start: 2018-05-08
     end: 2023-01-31
     summary: |
-      *Test
+      * Test
 
 skills:
   - name: Development
