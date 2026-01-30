@@ -268,8 +268,8 @@ sections:
           company_url: 'https://www.aecsa.com.co/'
           company_logo: custom/aecsa
           location: 'Bogotá, Colombia'
-          date_start: '2024-07-15'
-          date_end: '2025-08-29'
+          date_start: 2024-07-15
+          date_end: 2025-08-29
           description: |2-
             * Test
         - title: 'Data Scientist (contractor/consultant)'
@@ -277,8 +277,8 @@ sections:
           company_url: 'https://www.grupoespumados.com/'
           company_logo: custom/espumados
           location: 'Bogotá, Colombia'
-          date_start: '2024-01-22'
-          date_end: '2024-04-22'
+          date_start: 2024-01-22
+          date_end: 2024-04-22
           description: |2-
             * Test
         - title: 'R&D | QC | QA Scientist (full-time)'
@@ -286,8 +286,8 @@ sections:
           company_url: 'https://www.banrep.gov.co/'
           company_logo: custom/banrep
           location: 'Bogotá, Colombia'
-          date_start: '2018-05-08'
-          date_end: '2023-01-31'
+          date_start: 2018-05-08
+          date_end: 2023-01-31
           description: |2-
             * Test
     design:
