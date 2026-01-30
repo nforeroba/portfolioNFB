@@ -263,29 +263,29 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Data Scientist + AI Engineer/Developer (full-time)
-          company: AECSA BPO - Debt Collection
+        - title: 'Data Scientist + AI Engineer/Developer (full-time)'
+          company: 'AECSA BPO - Debt Collection'
           company_url: 'https://www.aecsa.com.co/'
           company_logo: custom/aecsa
-          location: Bogotá, Colombia
+          location: 'Bogotá, Colombia'
           date_start: '2024-07-15'
           date_end: '2025-08-29'
           description: |2-
             * Test
-        - title: Data Scientist (contractor/consultant)
-          company: IMPSERCOM S.A.S / Espumados Group - Manufacture & Retail
+        - title: 'Data Scientist (contractor/consultant)'
+          company: 'IMPSERCOM S.A.S / Espumados Group - Manufacture & Retail'
           company_url: 'https://www.grupoespumados.com/'
           company_logo: custom/espumados
-          location: Bogotá, Colombia
+          location: 'Bogotá, Colombia'
           date_start: '2024-01-22'
           date_end: '2024-04-22'
           description: |2-
             * Test
-        - title: R&D | QC | QA Scientist (full-time)
-          company: Bank of the Republic (Colombia) - BRC
+        - title: 'R&D | QC | QA Scientist (full-time)'
+          company: 'Bank of the Republic (Colombia) - BRC'
           company_url: 'https://www.banrep.gov.co/'
           company_logo: custom/banrep
-          location: Bogotá, Colombia
+          location: 'Bogotá, Colombia'
           date_start: '2018-05-08'
           date_end: '2023-01-31'
           description: |2-
