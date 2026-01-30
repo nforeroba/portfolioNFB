@@ -44,7 +44,7 @@ education:
     start: 2023-05-01
     end: 2024-11-03
     summary: |
-      For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms your natural language question about Colombian crime statistics into a SQLite query whose result is displayed as a table or plotly chart. It uses ChatGPT-4x models for inference, LangChain and LangGraph for orchestration and Streamlit for the web interface.
+      For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms natural language questions about Colombian crime statistics into SQLite queries, displaying the results as tables or Plotly charts. The application uses GPT-4-based models for inference, LangChain and LangGraph for orchestration, and Streamlit for the web interface.
     button:
       text: View Project
       url: https://tesiscrimen.streamlit.app/
@@ -58,9 +58,9 @@ experience:
     start: 2024-07-15
     end: 2025-08-29
     summary: |
-      - Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor.
-      - Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot.
-      - Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns.
+      🤖 Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor.
+      🗣️ Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot.
+      📈 Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns.
 
   - role: Data Scientist (contractor/consultant)
     org: IMPSERCOM S.A.S / Espumados Group
@@ -68,10 +68,10 @@ experience:
     start: 2024-01-22
     end: 2024-04-22
     summary: |
-      - Developed price monitoring tools to assess competitors' discount dynamics.
-      - Applied time-series analysis with boosting methods for SKU demand forecasting.
-      - Prepared sales reports across time periods and channels.
-      - Designed a cloud-based OCR tool for invoice data extraction.
+      💰 Developed price monitoring tools to assess competitors' discount dynamics.
+      💹 Applied time-series analysis with boosting methods for SKU demand forecasting.
+      📊 Prepared sales reports across time periods and channels.
+      👁️ Designed a cloud-based OCR tool for invoice data extraction.
 
   - role: R&D | QC | QA Scientist (full-time)
     org: Bank of the Republic (Colombia) - BRC
@@ -79,9 +79,9 @@ experience:
     start: 2018-05-08
     end: 2023-01-31
     summary: |
-      - Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles.
-      - Provided scientific and technical support to Mint and Treasury plants.
-      - Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives.
+      💷 Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles.
+      👨🏻‍🔬🏭 Provided scientific and technical support to Mint and Treasury plants.
+      🔍 Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives.
 
 # skills:
 #   - name: Development
