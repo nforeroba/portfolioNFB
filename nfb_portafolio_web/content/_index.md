@@ -263,42 +263,48 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
-          company_url: ''
-          company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
-          date_end: ''
+        - title: Data Scientist + AI Engineer/Developer (full-time)
+          company: AECSA BPO - Debt Collection
+          company_url: 'https://www.aecsa.com.co/'
+          company_logo: custom/aecsa
+          location: Bogotá, Colombia
+          date_start: '2024-07-15'
+          date_end: '2025-08-29'
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
-          company_url: ''
-          company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+            <ul>
+              <li>Test 1, test 2, test 3</li>
+              <li>Test 1, test 2, test 3</li>
+              <li>Test 1, test 2, test 3</li>
+            </ul>
+            <p><strong>Tech stack:</strong> Test 1, test 2, test 3</p>
+        - title: Data Scientist (contractor/consultant)
+          company: IMPSERCOM S.A.S / Espumados Group - Manufacture & Retail
+          company_url: 'https://www.grupoespumados.com/'
+          company_logo: custom/espumados
+          location: Bogotá, Colombia
+          date_start: '2024-01-22'
+          date_end: '2024-04-22'
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
-          company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
+            <ul>
+              <li>Test 1, test 2, test 3</li>
+              <li>Test 1, test 2, test 3</li>
+              <li>Test 1, test 2, test 3</li>
+            </ul>
+            <p><strong>Tech stack:</strong> Test 1, test 2, test 3</p>
+        - title: R&D | QC | QA Scientist (full-time)
+          company: Bank of the Republic (Colombia) - BRC
+          company_url: 'https://www.banrep.gov.co/'
+          company_logo: custom/banrep
+          location: Bogotá, Colombia
+          date_start: '2018-05-08'
+          date_end: '2023-01-31'
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            <ul>
+              <li>Test 1, test 2, test 3</li>
+              <li>Test 1, test 2, test 3</li>
+              <li>Test 1, test 2, test 3</li>
+            </ul>
+            <p><strong>Tech stack:</strong> Test 1, test 2, test 3</p>
     design:
       columns: '1'
       background:
