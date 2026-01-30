@@ -22,12 +22,12 @@ sections:
         enable: true
         prefix: "I have worked on"
         strings:
+          - "web scraping for price monitoring & market research"
           - "LLM-powered Q&A systems"
           - "document intelligence with VLMs"
           - "voice cloning & speech synthesis"
           - "ML for predictive process optimization"
           - "deployment of WebSocket & batch AI services"
-          - "web scraping for price monitoring & market research"
         type_speed: 50
         delete_speed: 40
         pause_time: 1000
@@ -54,7 +54,7 @@ sections:
     id: projects
     content:
       title: "Featured Projects"
-      subtitle: "A selection of my recent work on Generative AI, Machine Learning and Deep Learning, using open-source or propietary technologies."
+      subtitle: "A selection of my recent work on Generative AI, Machine Learning and Deep Learning, using open-source or propietary technologies"
       count: 0
       filters:
         folders:
@@ -304,7 +304,7 @@ sections:
     id: blog
     content:
       title: "Recent Posts"
-      subtitle: "Thoughts on AI, technology, science and more"
+      subtitle: "Thoughts and tutorials on AI, technology, science and more!"
       count: 0
       filters:
         folders:
