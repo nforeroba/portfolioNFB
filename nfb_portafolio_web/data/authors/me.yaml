@@ -37,6 +37,7 @@ interests:
   - Speech Synthesis
   - PC Building
   - Open Source
+
 education:
   - degree: B.S. Computer Science
     institution: State University
@@ -51,28 +52,24 @@ education:
       icon: brands/github
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: Data Scientist + AI Engineer/Developer (full-time)
+    org: AECSA BPO - Debt Collection
+    start: 2024-07-15
+    end: 2025-08-29
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      Test
+  - role: Data Scientist (contractor/consultant)
+    org: IMPSERCOM S.A.S / Espumados Group
+    start: 2024-01-22
+    end: 2024-04-22
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      Test
+  - role: R&D | QC | QA Scientist (full-time)
+    org: Bank of the Republic (Colombia) - BRC
+    start: 2018-05-08
+    end: 2023-01-31
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Test
 
 skills:
   - name: Development
