@@ -327,9 +327,8 @@ sections:
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      subtitle: "↓"
       text: |-
-        I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
       email: nikorasu.fb@outlook.com
       autolink: true
@@ -348,8 +347,7 @@ sections:
       title: "Open to Opportunities"
       text: |-
         I'm looking for **AI engineering**, **AI development** & **Data Science** roles.
-        
-        Let's connect and discuss how I can help your team.
+        Get to know me through this website or my resume below **↓**
       button:
         text: 'Download Resume'
         url: uploads/nicolas_forero_baena_resume_2026.pdf
