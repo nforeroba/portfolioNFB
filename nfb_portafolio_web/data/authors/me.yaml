@@ -39,64 +39,73 @@ interests:
   - Open Source
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: Master's in Applied Statistics and Data Science
+    institution: El Bosque University (UEB)
+    start: 2023-05-01
+    end: 2024-11-03
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
+      For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms your natural language question about Colombian crime statistics into a SQLite query whose result is displayed as a table or plotly chart. It uses ChatGPT-4x models for inference, LangChain and LangGraph for orchestration and Streamlit for the web interface.
     button:
       text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      url: https://tesiscrimen.streamlit.app/
+      icon: brands/streamlit
 
 experience:
+
   - role: Data Scientist + AI Engineer/Developer (full-time)
     org: AECSA BPO - Debt Collection
     icon: custom/aecsa
     start: 2024-07-15
     end: 2025-08-29
     summary: |
-      * Test
+      - Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor.
+      - Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot.
+      - Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns.
+
   - role: Data Scientist (contractor/consultant)
     org: IMPSERCOM S.A.S / Espumados Group
     icon: custom/espumados
     start: 2024-01-22
     end: 2024-04-22
     summary: |
-      * Test
+      - Developed price monitoring tools to assess competitors' discount dynamics.
+      - Applied time-series analysis with boosting methods for SKU demand forecasting.
+      - Prepared sales reports across time periods and channels.
+      - Designed a cloud-based OCR tool for invoice data extraction.
+
   - role: R&D | QC | QA Scientist (full-time)
     org: Bank of the Republic (Colombia) - BRC
     icon: custom/banrep
     start: 2018-05-08
     end: 2023-01-31
     summary: |
-      * Test
+      - Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles.
+      - Provided scientific and technical support to Mint and Treasury plants.
+      - Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives.
 
-skills:
-  - name: Development
-    items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
-        level: 4
-  - name: DevOps
-    items:
-      - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
-        level: 5
+# skills:
+#   - name: Development
+#     items:
+#       - label: TypeScript
+#         level: 5
+#       - label: React
+#         level: 5
+#       - label: Node.js
+#         level: 5
+#       - label: Python
+#         level: 4
+#   - name: DevOps
+#     items:
+#       - label: Docker
+#         level: 4
+#       - label: AWS
+#         level: 4
+#       - label: CI/CD
+#         level: 5
 
-languages:
-  - name: English
-    level: 5
-    label: Native
+# languages:
+#   - name: English
+#     level: 5
+#     label: Native
 
-awards: []
+# awards: []

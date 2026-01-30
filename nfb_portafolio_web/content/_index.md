@@ -271,7 +271,7 @@ sections:
           date_start: 2024-07-15
           date_end: 2025-08-29
           description: |2-
-            * Test
+            * Useless block. This information is actually taken from data\authors\me.yaml
         - title: 'Data Scientist (contractor/consultant)'
           company: 'IMPSERCOM S.A.S / Espumados Group - Manufacture & Retail'
           company_url: 'https://www.grupoespumados.com/'
@@ -280,7 +280,7 @@ sections:
           date_start: 2024-01-22
           date_end: 2024-04-22
           description: |2-
-            * Test
+            * Useless block. This information is actually taken from data\authors\me.yaml
         - title: 'R&D | QC | QA Scientist (full-time)'
           company: 'Bank of the Republic (Colombia) - BRC'
           company_url: 'https://www.banrep.gov.co/'
@@ -289,7 +289,7 @@ sections:
           date_start: 2018-05-08
           date_end: 2023-01-31
           description: |2-
-            * Test
+            * Useless block. This information is actually taken from data\authors\me.yaml
     design:
       columns: '1'
       background:
@@ -304,7 +304,7 @@ sections:
     id: blog
     content:
       title: Recent Posts
-      subtitle: 'Thoughts on AI, technology, science and more'
+      subtitle: Thoughts on AI, technology, science and more
       text: ''
       filters:
         folders:
@@ -327,7 +327,7 @@ sections:
     id: contact
     content:
       title: Get In Touch
-      subtitle: "↓"
+      #subtitle: ""
       text: |-
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
       email: nikorasu.fb@outlook.com
@@ -346,7 +346,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm looking for **AI engineering**, **AI development** & **Data Science** roles.
+        I'm looking for **AI engineering**, **AI development** and/or **Data Science** roles.
         Get to know me through this website or my resume below **↓**
       button:
         text: 'Download Resume'
