@@ -271,12 +271,7 @@ sections:
           date_start: '2024-07-15'
           date_end: '2025-08-29'
           description: |2-
-            <ul>
-              <li>Test 1, test 2, test 3</li>
-              <li>Test 1, test 2, test 3</li>
-              <li>Test 1, test 2, test 3</li>
-            </ul>
-            <p><strong>Tech stack:</strong> Test 1, test 2, test 3</p>
+            * Test
         - title: Data Scientist (contractor/consultant)
           company: IMPSERCOM S.A.S / Espumados Group - Manufacture & Retail
           company_url: 'https://www.grupoespumados.com/'
@@ -285,12 +280,7 @@ sections:
           date_start: '2024-01-22'
           date_end: '2024-04-22'
           description: |2-
-            <ul>
-              <li>Test 1, test 2, test 3</li>
-              <li>Test 1, test 2, test 3</li>
-              <li>Test 1, test 2, test 3</li>
-            </ul>
-            <p><strong>Tech stack:</strong> Test 1, test 2, test 3</p>
+            * Test
         - title: R&D | QC | QA Scientist (full-time)
           company: Bank of the Republic (Colombia) - BRC
           company_url: 'https://www.banrep.gov.co/'
@@ -299,12 +289,7 @@ sections:
           date_start: '2018-05-08'
           date_end: '2023-01-31'
           description: |2-
-            <ul>
-              <li>Test 1, test 2, test 3</li>
-              <li>Test 1, test 2, test 3</li>
-              <li>Test 1, test 2, test 3</li>
-            </ul>
-            <p><strong>Tech stack:</strong> Test 1, test 2, test 3</p>
+            * Test
     design:
       columns: '1'
       background:
