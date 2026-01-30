@@ -1,0 +1,17 @@
+/*
+  Custom CSS styles for Nicolás Forero-Baena Portfolio
+*/
+
+/* Aumentar tamaño de íconos en Experience Timeline */
+.experience-icon svg,
+.experience-icon svg.w-4.h-4 {
+  width: 2.5rem !important;   /* 40px - antes era 1rem (16px) */
+  height: 2.5rem !important;
+}
+
+/* Ajustar el contenedor del ícono para centrar */
+.experience-icon {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  min-width: 2.5rem !important;
+}
