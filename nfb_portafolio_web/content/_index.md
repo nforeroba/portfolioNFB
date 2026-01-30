@@ -300,20 +300,28 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
   
   # Recent Blog Posts
-  - block: collection
+  - block: portfolio
     id: blog
     content:
-      title: Recent Posts
-      subtitle: Thoughts on AI, technology, science and more
-      text: ''
+      title: "Recent Posts"
+      subtitle: "Thoughts on AI, technology, science and more"
+      count: 0
       filters:
         folders:
           - blog
-        exclude_featured: false
-      count: 3
-      order: desc
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Tutorial
+          tag: Tutorial
+        - name: Frontend
+          tag: Frontend
+        - name: Backend
+          tag: Backend
+        - name: DevOps
+          tag: DevOps
+      default_button_index: 0
     design:
-      view: card
       columns: 3
       background:
         color:
