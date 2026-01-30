@@ -48,7 +48,7 @@ education:
     button:
       text: View Project
       url: https://tesiscrimen.streamlit.app/
-      icon: brands/streamlit
+      icon: devicon/streamlit
 
 experience:
 
