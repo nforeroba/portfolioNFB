@@ -61,6 +61,7 @@ experience:
       🤖 Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor.
       🗣️ Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot.
       📈 Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns.
+      🧿 Developed a FastAPI WebSocket OCR Service for voucher text extraction.
 
   - role: Data Scientist (contractor/consultant)
     org: IMPSERCOM S.A.S / Espumados Group
