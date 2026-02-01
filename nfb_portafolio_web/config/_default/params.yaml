@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "My personal website and portfolio showcasing data science and AI development projects, technical blog posts and personal takes on science and technology. Built with Hugo Blox and deployed on Netlify."
+    description: "My personal website and portfolio showcasing data science and AI development projects."
     # Social accounts (used for meta tags like Twitter Cards)
     #social:
     #  twitter: "yourusername"              # Twitter/X handle for Twitter Cards (without @)
@@ -147,7 +147,7 @@ hugoblox:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
+      note: ""
       contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
