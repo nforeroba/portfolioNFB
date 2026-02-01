@@ -54,7 +54,7 @@ sections:
     id: projects
     content:
       title: "Featured Projects"
-      subtitle: "A selection of my recent work on Generative AI, Machine Learning and Deep Learning, using open-source or propietary technologies"
+      subtitle: "Some of my recent work on Generative AI, Machine Learning and Deep Learning, using open-source or propietary technologies"
       count: 0
       filters:
         folders:
