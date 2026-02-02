@@ -8,7 +8,7 @@ name:
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Data Scientist, AI Engineer & Developer
+role: •••
 email: nikorasu.fb@outlook.com
 bio: |
   Data Scientist with AI Engineering & Development experience. I have worked for BPO (debt collection), manufacture and retail companies. B.Sc, M.Sc, with a Master's in applied statistics and data science. C1 English proficiency.
@@ -61,6 +61,7 @@ experience:
       🤖 Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor.
       🗣️ Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot.
       📈 Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns.
+      🧿 Developed a FastAPI WebSocket OCR Service for voucher text extraction.
 
   - role: Data Scientist (contractor/consultant)
     org: IMPSERCOM S.A.S / Espumados Group
