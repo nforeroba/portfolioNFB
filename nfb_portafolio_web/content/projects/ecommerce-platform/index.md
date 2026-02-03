@@ -7,6 +7,8 @@ tags:
   - Node.js
   - API
   - E-Commerce
+authors:
+  - me
 tech_stack:
   - React
   - TypeScript
