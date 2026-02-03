@@ -7,6 +7,8 @@ tags:
   - Next.js
   - Real-Time
   - Productivity
+authors:
+  - me
 tech_stack:
   - Next.js
   - TypeScript

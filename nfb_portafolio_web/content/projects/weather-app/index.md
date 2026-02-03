@@ -7,6 +7,8 @@ tags:
   - React
   - API Integration
   - PWA
+authors:
+  - me
 tech_stack:
   - React
   - TypeScript
