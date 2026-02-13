@@ -90,7 +90,23 @@ sections:
       title: "Tech Stack"
       subtitle: "Technologies I've used to build AI/ML applications (web and on-premises)"
       categories:
-        - name: AI & Machine Learning
+        - name: Code, Data & Development
+          items:
+            - name: Python
+              icon: devicon/python
+            - name: R
+              icon: devicon/rstudio
+            - name: SQL
+              icon: devicon/postgresql
+            - name: Pandas
+              icon: devicon/pandas
+            - name: PostgreSQL
+              icon: devicon/postgresql
+            - name: Git
+              icon: devicon/git
+            - name: NVIDIA SMI
+              icon: custom/nvidia
+        - name: Machine & Deep Learning
           items:
             - name: PyTorch
               icon: devicon/pytorch
@@ -104,32 +120,20 @@ sections:
               icon: custom/fishaudio
         - name: GenAI & LLMs
           items:
-            - name: LangChain
-              icon: custom/langchain
-            - name: LangGraph
-              icon: custom/langgraph
-            - name: Claude AI
-              icon: custom/claudeai
-            - name: OpenAI
-              icon: custom/openai
-            - name: Gemini AI
-              icon: custom/geminiai
             - name: Ollama
               icon: custom/ollama
             - name: ChromaDB
               icon: custom/chromadb
-        - name: Data & Development
-          items:
-            - name: Python
-              icon: devicon/python
-            - name: Pandas
-              icon: devicon/pandas
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Git
-              icon: devicon/git
-            - name: NVIDIA SMI
-              icon: custom/nvidia
+            - name: LangChain & LangGraph
+              icon: custom/langchain_2
+            - name: Claude AI
+              icon: custom/claudeai
+            - name: Gemini AI
+              icon: custom/geminiai
+            - name: Mistral AI
+              icon: custom/mistralai
+            - name: OpenAI
+              icon: custom/openai
         - name: Deployment & APIs
           items:
             - name: FastAPI
