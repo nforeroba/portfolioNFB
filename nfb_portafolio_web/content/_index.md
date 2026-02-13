@@ -22,12 +22,12 @@ sections:
         enable: true
         prefix: "I have worked on"
         strings:
-          - "web scraping for price monitoring & market research"
           - "LLM-powered Q&A systems"
           - "document intelligence with VLMs"
           - "voice cloning & speech synthesis"
           - "ML for predictive process optimization"
           - "deployment of WebSocket & batch AI services"
+          - "web scraping for price monitoring & market research"
         type_speed: 50
         delete_speed: 40
         pause_time: 1000
@@ -88,7 +88,7 @@ sections:
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Core technologies I use to build AI/ML applications"
+      subtitle: "Technologies I've used to build AI/ML applications (web and on-premises)"
       categories:
         - name: AI & Machine Learning
           items:
