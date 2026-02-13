@@ -44,8 +44,7 @@ education:
     start: 2023-05-01
     end: 2024-11-01
     summary: |
-      For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms natural language questions about Colombian crime statistics into SQLite queries, displaying the results as tables or Plotly charts. The application uses GPT-4-based models for inference, LangChain and LangGraph for orchestration, and Streamlit for the web interface.
-      
+      For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms natural language questions about Colombian crime statistics into SQLite queries, displaying the results as tables or Plotly charts. The application uses GPT-4-based models for inference, LangChain and LangGraph for orchestration, and Streamlit for the web interface.<br><br>
       📄 [**Read the full thesis article**](https://repositorio.unbosque.edu.co/server/api/core/bitstreams/3e246848-3da2-4975-be7f-98fc4da32b5c/content)
     button:
       text: Use webapp
@@ -57,8 +56,7 @@ education:
     start: 2013-02-01
     end: 2015-10-01
     summary: |
-      I worked in the field of molecular parasitology from 2010 to 2016. I had the privilege of working with bioinformatics, recombinant DNA technology, recombinant protein expression and purification, immunochemistry, enzymology, and HPLC.
-      
+      I worked in the field of molecular parasitology from 2010 to 2016. I had the privilege of working with bioinformatics, recombinant DNA technology, recombinant protein expression and purification, immunochemistry, enzymology, and HPLC.<br><br>
       📄 **Publications:** <span style="color: #FCD116;">**[Biochimie Open](https://www.sciencedirect.com/science/article/pii/S2214008515000085?via%3Dihub)**</span> • <span style="color: #003893;">**[Mem Inst Oswaldo Cruz](https://pubmed.ncbi.nlm.nih.gov/26560979/)**</span> • <span style="color: #CE1126;">**[Rev Colomb Quim](http://www.scielo.org.co/pdf/rcq/v46n3/0120-2804-rcq-46-03-00005.pdf)**</span>
         
   - degree: Bachelor of Science (BSc) - Chemistry
