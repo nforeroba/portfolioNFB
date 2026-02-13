@@ -41,8 +41,8 @@ interests:
 education:
   - degree: Master's in Applied Statistics and Data Science
     institution: Universidad El Bosque (UEB) - Bogotá, Colombia
-    start: 2023-05
-    end: 2024-11
+    start: 2023-05-01
+    end: 2024-11-01
     summary: |
       For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms natural language questions about Colombian crime statistics into SQLite queries, displaying the results as tables or Plotly charts. The application uses GPT-4-based models for inference, LangChain and LangGraph for orchestration, and Streamlit for the web interface.
     button:
@@ -51,8 +51,8 @@ education:
       icon: devicon/streamlit
   - degree: Master of Science (MSc) - Biochemistry
     institution: Universidad Nacional de Colombia (UNAL) - Bogotá, Colombia
-    start: 2013-02
-    end: 2015-10
+    start: 2013-02-01
+    end: 2015-10-01
     summary: |
       I worked in the field of molecular parasitology from 2010 to 2016. I had the privilege of working with bioinformatics, recombinant DNA technology, recombinant protein expression and purification, immunochemistry, enzymology, and HPLC.
     button:
@@ -61,8 +61,8 @@ education:
       icon: academicons/open-access
   - degree: Bachelor of Science (BSc) - Chemistry
     institution: Universidad Nacional de Colombia (UNAL) - Bogotá, Colombia
-    start: 2007-02
-    end: 2012-04
+    start: 2007-02-01
+    end: 2012-04-01
     summary: |
       Chemistry, the central science. Paraphrasing what Nobel Prize laureate Richard R. Ernst said during his visit to my university, "a complete chemist should have worked in research, teaching, and industry." I followed his advice, and I'm proud to have had the opportunity to work in all three areas between 2013 and 2023.
 
