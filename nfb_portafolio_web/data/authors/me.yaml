@@ -44,7 +44,7 @@ education:
     start: 2023-05-01
     end: 2024-11-01
     summary: |
-      For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms natural language questions about Colombian crime statistics into SQLite queries, displaying the results as tables or Plotly charts. The application uses GPT-4-based models for inference, LangChain and LangGraph for orchestration, and Streamlit for the web interface.<br><br>
+      For my master's thesis, I developed a Homeland Security AI Q&A application. It transforms natural language questions about Colombian crime statistics into SQLite queries, displaying the results as tables or Plotly charts. The application uses GPT-4-based models for inference, LangChain and LangGraph for orchestration, and Streamlit for the web interface<br><br>
       📄 [**Read the full thesis article**](https://repositorio.unbosque.edu.co/server/api/core/bitstreams/3e246848-3da2-4975-be7f-98fc4da32b5c/content)
     button:
       text: Use webapp
@@ -56,7 +56,7 @@ education:
     start: 2013-02-01
     end: 2015-10-01
     summary: |
-      I worked in the field of molecular parasitology from 2010 to 2016. I had the privilege of working with bioinformatics, recombinant DNA technology, recombinant protein expression and purification, immunochemistry, enzymology, and HPLC.<br><br>
+      I worked in the field of molecular parasitology from 2010 to 2016. I had the privilege of working with bioinformatics, recombinant DNA technology, recombinant protein expression and purification, immunochemistry, enzymology, and HPLC<br><br>
       📄 **Publications:** <span style="color: #FCD116;">**[Biochimie Open](https://www.sciencedirect.com/science/article/pii/S2214008515000085?via%3Dihub)**</span> • <span style="color: #003893;">**[Mem Inst Oswaldo Cruz](https://pubmed.ncbi.nlm.nih.gov/26560979/)**</span> • <span style="color: #CE1126;">**[Rev Colomb Quim](http://www.scielo.org.co/pdf/rcq/v46n3/0120-2804-rcq-46-03-00005.pdf)**</span>
         
   - degree: Bachelor of Science (BSc) - Chemistry
@@ -64,7 +64,7 @@ education:
     start: 2007-02-01
     end: 2012-04-01
     summary: |
-      Chemistry, the central science. Paraphrasing what Nobel Prize laureate Richard R. Ernst said during his visit to my university, "a thorough chemist should have worked in research, teaching, and industry." I followed his advice, and I'm proud to have had the opportunity to work in all three areas between 2013 and 2023.
+      Chemistry, *the central science*. Paraphrasing what Nobel Prize laureate Richard R. Ernst said during his visit to my university, "a thorough chemist should have worked in research, teaching, and industry." I followed his advice, and I'm proud to have had the opportunity to work in all three areas between 2013 and 2023
 
 experience:
 
@@ -74,21 +74,21 @@ experience:
     start: 2024-07-15
     end: 2025-08-29
     summary: |
-      🤖 Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor.
-      🗣️ Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot.
-      📈 Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns.
-      🧿 Developed a FastAPI WebSocket OCR Service for voucher text extraction.
+      🤖 Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor
+      🗣️ Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot
+      📈 Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns
+      🧿 Developed a FastAPI WebSocket OCR Service for voucher text extraction
 
   - role: Data Scientist (contractor/consultant)
-    org: IMPSERCOM S.A.S / Espumados Group
+    org: IMPSERCOM S.A.S - Espumados Group
     icon: custom/espumados
     start: 2024-01-22
     end: 2024-04-22
     summary: |
-      💰 Developed price monitoring tools to assess competitors' discount dynamics.
-      💹 Applied time-series analysis with boosting methods for SKU demand forecasting.
-      📊 Prepared sales reports across time periods and channels.
-      👁️ Designed a cloud-based OCR tool for invoice data extraction.
+      💰 Developed price monitoring tools to assess competitors' discount dynamics
+      💹 Applied time-series analysis with boosting methods for SKU demand forecasting
+      📊 Prepared sales reports across time periods and channels
+      👁️ Designed a cloud-based OCR tool for invoice data extraction
 
   - role: R&D | QC | QA Scientist (full-time)
     org: Bank of the Republic (Colombia) - BRC
@@ -96,9 +96,9 @@ experience:
     start: 2018-05-08
     end: 2023-01-31
     summary: |
-      💷 Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles.
-      👨🏻‍🔬🏭 Provided scientific and technical support to Mint and Treasury plants.
-      🔍 Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives.
+      💷 Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles
+      👨🏻‍🔬🏭 Provided scientific and technical support to Mint and Treasury plants
+      🔍 Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives
 
 # skills:
 #   - name: Development
