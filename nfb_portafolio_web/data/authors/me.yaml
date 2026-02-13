@@ -49,6 +49,10 @@ education:
       text: Use webapp
       url: https://tesiscrimen.streamlit.app/
       icon: devicon/streamlit
+    button:
+      text: Read article
+      url: https://repositorio.unbosque.edu.co/server/api/core/bitstreams/3e246848-3da2-4975-be7f-98fc4da32b5c/content
+      icon: academicons/open-access
   - degree: Master of Science (MSc) - Biochemistry
     institution: Universidad Nacional de Colombia (UNAL) - Bogotá, Colombia
     start: 2013-02-01
@@ -56,15 +60,23 @@ education:
     summary: |
       I worked in the field of molecular parasitology from 2010 to 2016. I had the privilege of working with bioinformatics, recombinant DNA technology, recombinant protein expression and purification, immunochemistry, enzymology, and HPLC.
     button:
-      text: Read article
+      text: Read article - *Biochimie Open*
       url: https://www.sciencedirect.com/science/article/pii/S2214008515000085?via%3Dihub
+      icon: academicons/open-access
+    button:
+      text: Read article - *Mem Inst Oswaldo Cruz*
+      url: https://pubmed.ncbi.nlm.nih.gov/26560979/
+      icon: academicons/open-access
+    button:
+      text: Read article - *Rev Colomb Quim*
+      url: http://www.scielo.org.co/pdf/rcq/v46n3/0120-2804-rcq-46-03-00005.pdf
       icon: academicons/open-access
   - degree: Bachelor of Science (BSc) - Chemistry
     institution: Universidad Nacional de Colombia (UNAL) - Bogotá, Colombia
     start: 2007-02-01
     end: 2012-04-01
     summary: |
-      Chemistry, the central science. Paraphrasing what Nobel Prize laureate Richard R. Ernst said during his visit to my university, "a complete chemist should have worked in research, teaching, and industry." I followed his advice, and I'm proud to have had the opportunity to work in all three areas between 2013 and 2023.
+      Chemistry, the central science. Paraphrasing what Nobel Prize laureate Richard R. Ernst said during his visit to my university, "a thorough chemist should have worked in research, teaching, and industry." I followed his advice, and I'm proud to have had the opportunity to work in all three areas between 2013 and 2023.
 
 experience:
 
