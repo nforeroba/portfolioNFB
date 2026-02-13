@@ -96,8 +96,6 @@ sections:
               icon: devicon/python
             - name: R
               icon: devicon/rstudio
-            - name: SQL
-              icon: devicon/postgresql
             - name: Pandas
               icon: devicon/pandas
             - name: PostgreSQL
