@@ -97,7 +97,7 @@ sections:
             - name: R
               icon: devicon/rstudio
             - name: Pandas
-              icon: devicon/pandas
+              icon: custom/pandas
             - name: PostgreSQL
               icon: devicon/postgresql
             - name: Git
