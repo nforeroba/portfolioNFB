@@ -60,15 +60,15 @@ education:
     summary: |
       I worked in the field of molecular parasitology from 2010 to 2016. I had the privilege of working with bioinformatics, recombinant DNA technology, recombinant protein expression and purification, immunochemistry, enzymology, and HPLC.
     button:
-      text: Read article - *Biochimie Open*
+      text: Read article - Biochimie Open
       url: https://www.sciencedirect.com/science/article/pii/S2214008515000085?via%3Dihub
       icon: academicons/open-access
     button:
-      text: Read article - *Mem Inst Oswaldo Cruz*
+      text: Read article - Mem Inst Oswaldo Cruz
       url: https://pubmed.ncbi.nlm.nih.gov/26560979/
       icon: academicons/open-access
     button:
-      text: Read article - *Rev Colomb Quim*
+      text: Read article - Rev Colomb Quim
       url: http://www.scielo.org.co/pdf/rcq/v46n3/0120-2804-rcq-46-03-00005.pdf
       icon: academicons/open-access
   - degree: Bachelor of Science (BSc) - Chemistry
