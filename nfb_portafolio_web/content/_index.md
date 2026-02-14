@@ -59,23 +59,11 @@ sections:
       filters:
         folders:
           - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
-      default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
     design:
+      view: article-grid
       columns: 3
+      fill_image: false
+      show_read_more: false
       background:
         color:
           light: "#ffffff"
@@ -205,20 +193,11 @@ sections:
       filters:
         folders:
           - blog
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Tutorial
-          tag: Tutorial
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
-        - name: DevOps
-          tag: DevOps
-      default_button_index: 0
     design:
+      view: article-grid
       columns: 3
+      fill_image: false
+      show_read_more: false
       background:
         color:
           light: "#f5f5f5"
