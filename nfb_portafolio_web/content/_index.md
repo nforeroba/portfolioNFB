@@ -110,13 +110,11 @@ sections:
               icon: devicon/pytorch
             - name: Scikit-learn
               icon: devicon/scikitlearn
-            - name: Hugging Face Transformers
-              icon: custom/huggingface
             - name: OpenCV
               icon: devicon/opencv
             - name: Fish Audio
               icon: custom/fishaudio
-        - name: GenAI & LLMs
+        - name: AI Engineering
           items:
             - name: Ollama
               icon: custom/ollama
@@ -124,6 +122,8 @@ sections:
               icon: custom/chromadb
             - name: LangChain & LangGraph
               icon: custom/langchain_2
+            - name: Hugging Face Transformers
+              icon: custom/huggingface
             - name: Claude AI
               icon: custom/claudeai
             - name: Gemini AI
