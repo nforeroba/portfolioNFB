@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Some of my recent work on Generative AI, Machine Learning and Deep Learning, using open-source or propietary technologies
       filters:
         folders:
           - projects

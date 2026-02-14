@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Blog Posts
-      text: Thoughts on AI, technology, science and more.
+      text: Thoughts and tutorials on AI, technology, science and more!
       filters:
         folders:
           - blog
