@@ -34,7 +34,7 @@ sections:
           document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
               initFilters();
-            }, 2000);
+            }, 500);
           });
           
           function initFilters() {
@@ -54,10 +54,9 @@ sections:
             } else if (isBlog) {
               buttons = [
                 { name: 'All', tag: '*' },
-                { name: 'Tutorial', tag: 'Tutorial' },
-                { name: 'Frontend', tag: 'Frontend' },
-                { name: 'Backend', tag: 'Backend' },
-                { name: 'DevOps', tag: 'DevOps' }
+                { name: 'Node.js', tag: 'Node.js' },
+                { name: 'React', tag: 'React' },
+                { name: 'Docker', tag: 'Docker' }
               ];
             }
             
