@@ -27,7 +27,7 @@ sections:
           - "voice cloning & speech synthesis"
           - "ML for predictive process optimization"
           - "deployment of WebSocket & batch AI services"
-          - "web scraping for price monitoring & market research"
+          - "web scraping for market research"
         type_speed: 50
         delete_speed: 40
         pause_time: 1000

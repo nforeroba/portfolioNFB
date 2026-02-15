@@ -13,7 +13,7 @@ sections:
     id: blog
     content:
       title: Blog Posts
-      text: Thoughts and tutorials on AI, technology, science and more!
+      text: <center>Thoughts and tutorials on AI, technology, science and more!<br><br>***Contemplari et aliis tradere contemplata*** - To contemplate and to pass on to others the fruits of contemplation (St. Thomas Aquinas)</center>
       filters:
         folders:
           - blog
