@@ -1,1 +1,8 @@
-<script src="{{ "js/collection-filters.js" | relURL }}"></script>
+{{ $js := resources.Get "js/collection-filters.js" }}
+{{ if $js }}
+  {{ $js = $js | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+{{ else }}
+  <!-- Fallback: direct link -->
+  <script src="{{ "js/collection-filters.js" | relURL }}" defer></script>
+{{ end }}
