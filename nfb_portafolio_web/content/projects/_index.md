@@ -74,12 +74,12 @@ sections:
             
             const items = section.querySelectorAll('div[class*="grid"] > div, div[class*="col-"]');
             console.log('✅ Found items:', items.length);
-            
+            /*
             if (items.length <= 3) {
               console.log('⚠️ Too few items');
               return;
             }
-            
+            */
             const title = section.querySelector('div.text-3xl, h1, h2');
             if (!title) {
               console.log('❌ No title found');
