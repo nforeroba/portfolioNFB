@@ -72,7 +72,7 @@ sections:
               return;
             }
             
-            const items = section.querySelectorAll('div[class*="grid"] > div, div[class*="col-"]');
+            const items = section.querySelectorAll('div.group[role="article"]');
             console.log('✅ Found items:', items.length);
             /*
             if (items.length <= 3) {
@@ -137,7 +137,7 @@ sections:
           }
           
           function filterItems(section, tag) {
-            const items = section.querySelectorAll('div[class*="grid"] > div, div[class*="col-"]');
+            const items = section.querySelectorAll('div.group[role="article"]');
             console.log('🔍 Filtering', items.length, 'items with tag:', tag);
             
             items.forEach(item => {
