@@ -90,8 +90,8 @@ sections:
               icon: devicon/rstudio
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Clickhouse
-              icon: custom/clickhouse
+            - name: Pandas
+              icon: custom/pandas
             - name: Git
               icon: devicon/git
         - name: Machine & Deep Learning
@@ -100,12 +100,24 @@ sections:
               icon: devicon/pytorch
             - name: Scikit-learn
               icon: devicon/scikitlearn
+            - name: Hugging Face Transformers
+              icon: custom/huggingface
             - name: OpenCV
               icon: devicon/opencv
             - name: Fish Audio
               icon: custom/fishaudio
-            - name: Hugging Face Transformers
-              icon: custom/huggingface
+        - name: Deployment & APIs
+          items:
+            - name: FastAPI
+              icon: devicon/fastapi
+            - name: Streamlit
+              icon: devicon/streamlit
+            - name: Docker
+              icon: devicon/docker
+            - name: Linux systemd
+              icon: devicon/linux
+            - name: NVIDIA SMI
+              icon: custom/nvidia
         - name: AI Engineering
           items:
             - name: Ollama
@@ -122,18 +134,6 @@ sections:
               icon: custom/mistralai
             - name: OpenAI
               icon: custom/openai
-        - name: Deployment & APIs
-          items:
-            - name: FastAPI
-              icon: devicon/fastapi
-            - name: Streamlit
-              icon: devicon/streamlit
-            - name: Docker
-              icon: devicon/docker
-            - name: Linux systemd
-              icon: devicon/linux
-            - name: NVIDIA SMI
-              icon: custom/nvidia
     design:
       style: grid
       show_levels: false

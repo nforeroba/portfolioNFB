@@ -11,7 +11,7 @@ status:
 role: •••
 email: nikorasu.fb@outlook.com
 bio: |
-  Data Scientist with AI Engineering & Development experience in the BPO, manufacturing, and retail sectors. Focused on quality, security, UX and continuous improvement.
+  Data Scientist with AI Engineering & Development experience in the BPO, manufacturing, and retail sectors. Focused on quality, security, UX and continuous improvement
 
 affiliations:
   - name: Nicolás Forero-Baena
@@ -76,8 +76,8 @@ experience:
     summary: |
       🤖 Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor<br>
       🗣️ Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot<br>
-      📈 Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns<br>
-      🧿 Developed a FastAPI WebSocket OCR Service for voucher text extraction
+      ☎️ Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns<br>
+      👁️ Developed a FastAPI WebSocket OCR Service for voucher text extraction
 
   - role: Data Scientist (contractor/consultant)
     org: IMPSERCOM S.A.S - Espumados Group
@@ -97,7 +97,7 @@ experience:
     end: 2023-01-31
     summary: |
       💷 Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles<br>
-      👨🏻‍🔬🏭 Provided scientific and technical support to Mint and Treasury plants<br>
+      🏭 Provided scientific and technical support to Mint and Treasury plants<br>
       🔍 Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives
 
 # skills:

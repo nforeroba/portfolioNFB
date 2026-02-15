@@ -37,7 +37,7 @@ sections:
           document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
               initFilters();
-            }, 200);
+            }, 100);
           });
           
           function initFilters() {
@@ -76,12 +76,12 @@ sections:
             
             const items = section.querySelectorAll('div.group[role="article"]');
             console.log('✅ Found items:', items.length);
-            /*
+            
             if (items.length <= 3) {
               console.log('⚠️ Too few items');
               return;
             }
-            */
+            
             const title = section.querySelector('div.text-3xl, h1, h2');
             if (!title) {
               console.log('❌ No title found');
