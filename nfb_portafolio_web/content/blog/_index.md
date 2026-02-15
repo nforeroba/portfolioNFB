@@ -13,7 +13,10 @@ sections:
     id: blog
     content:
       title: Blog Posts
-      text: <center>Thoughts and tutorials on AI, technology, science and more!<br><br>***Contemplari et aliis tradere contemplata*** - To contemplate and to pass on to others the fruits of contemplation (St. Thomas Aquinas)</center>
+      text: <center>
+              Thoughts and tutorials on AI, technology, science and more!<br><br>
+              <b><i>"Contemplari et aliis tradere contemplata"</i></b> - To contemplate and to pass on to others the fruits of contemplation [St. Thomas Aquinas]
+            </center>
       filters:
         folders:
           - blog
@@ -34,7 +37,7 @@ sections:
           document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
               initFilters();
-            }, 500);
+            }, 200);
           });
           
           function initFilters() {
