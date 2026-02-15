@@ -23,7 +23,7 @@ sections:
       columns: 3
       show_date: true
       show_read_time: true
-      show_read_more: true
+      show_read_more: false
   - block: markdown
     content:
       text: |
@@ -34,11 +34,12 @@ sections:
           document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
               initFilters();
-            }, 1000);
+            }, 2000);
           });
           
           function initFilters() {
-            // Determine which config to use based on URL
+            console.log('⏰ Initializing filters...');
+            
             const isProjects = window.location.pathname.includes('/projects');
             const isBlog = window.location.pathname.includes('/blog');
             
@@ -60,18 +61,32 @@ sections:
               ];
             }
             
-            if (buttons.length === 0) return;
+            if (buttons.length === 0) {
+              console.log('❌ No buttons config');
+              return;
+            }
             
-            const main = document.querySelector('main');
-            if (!main) return;
+            const section = document.querySelector('section');
+            if (!section) {
+              console.log('❌ No section found');
+              return;
+            }
             
-            const items = main.querySelectorAll('.col-12, article, [class*="col-md"]');
-            console.log('Found items:', items.length);
+            const items = section.querySelectorAll('div[class*="grid"] > div, div[class*="col-"]');
+            console.log('✅ Found items:', items.length);
             
-            if (items.length <= 3) return;
+            if (items.length <= 3) {
+              console.log('⚠️ Too few items');
+              return;
+            }
             
-            const title = main.querySelector('h1, h2');
-            if (!title) return;
+            const title = section.querySelector('div.text-3xl, h1, h2');
+            if (!title) {
+              console.log('❌ No title found');
+              return;
+            }
+            
+            console.log('✅ Title found:', title.textContent);
             
             const filterDiv = createButtons(buttons);
             const subtitle = title.nextElementSibling;
@@ -81,7 +96,9 @@ sections:
               title.after(filterDiv);
             }
             
-            setupFilters(main);
+            console.log('✅ Filter buttons created');
+            
+            setupFilters(section);
           }
           
           function createButtons(buttons) {
@@ -120,7 +137,8 @@ sections:
           }
           
           function filterItems(section, tag) {
-            const items = section.querySelectorAll('.col-12, article, [class*="col-md"]');
+            const items = section.querySelectorAll('div[class*="grid"] > div, div[class*="col-"]');
+            console.log('🔍 Filtering', items.length, 'items with tag:', tag);
             
             items.forEach(item => {
               if (tag === '*') {
