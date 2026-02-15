@@ -1,0 +1,118 @@
+<script>
+console.log('🎯 CUSTOM HEAD LOADED');
+window.collectionFiltersReady = true;
+
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('📍 DOM Ready - Path:', window.location.pathname);
+  
+  const configs = {
+    'projects': [
+      { name: 'All', tag: '*' },
+      { name: 'Full-Stack', tag: 'Full-Stack' },
+      { name: 'Frontend', tag: 'Frontend' },
+      { name: 'Backend', tag: 'Backend' }
+    ],
+    'blog': [
+      { name: 'All', tag: '*' },
+      { name: 'Tutorial', tag: 'Tutorial' },
+      { name: 'Frontend', tag: 'Frontend' },
+      { name: 'Backend', tag: 'Backend' },
+      { name: 'DevOps', tag: 'DevOps' }
+    ]
+  };
+  
+  setTimeout(function() {
+    Object.keys(configs).forEach(id => {
+      if (window.location.pathname === '/' || window.location.pathname.includes('/' + id + '/')) {
+        console.log('🔍 Searching for:', id);
+        let section = find(id);
+        if (section) {
+          console.log('✅ Found:', id);
+          init(id, configs[id], section);
+        } else {
+          console.log('❌ Not found:', id);
+        }
+      }
+    });
+  }, 1500);
+  
+  function find(id) {
+    let s = document.getElementById(id);
+    if (s) return s;
+    
+    let all = document.querySelectorAll('section, div, main');
+    for (let el of all) {
+      let links = el.querySelectorAll('a[href*="/' + id + '/"]');
+      if (links.length >= 2) return el;
+    }
+    
+    if (window.location.pathname.includes('/' + id + '/')) {
+      return document.querySelector('main');
+    }
+    return null;
+  }
+  
+  function init(id, btns, sec) {
+    let items = sec.querySelectorAll('.col-12, article, [class*="col-md"]');
+    console.log('📊 Items:', items.length);
+    if (items.length <= 3) return;
+    
+    let title = sec.querySelector('h1, h2');
+    if (!title) return;
+    
+    let div = make(id, btns);
+    let sub = title.nextElementSibling;
+    if (sub && sub.tagName === 'P') sub.after(div);
+    else title.after(div);
+    
+    setup(sec);
+  }
+  
+  function make(id, btns) {
+    let div = document.createElement('div');
+    div.className = 'filter-buttons-container flex flex-wrap gap-2 justify-center mb-8 mt-6';
+    btns.forEach((b, i) => {
+      let btn = document.createElement('button');
+      btn.className = i === 0 
+        ? 'filter-btn active px-4 py-2 rounded-lg font-medium bg-primary-600 text-white'
+        : 'filter-btn px-4 py-2 rounded-lg font-medium bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300';
+      btn.textContent = b.name;
+      btn.dataset.filter = b.tag;
+      div.appendChild(btn);
+    });
+    return div;
+  }
+  
+  function setup(sec) {
+    let btns = sec.querySelectorAll('.filter-btn');
+    btns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        let tag = this.dataset.filter;
+        btns.forEach(b => {
+          b.classList.remove('active', 'bg-primary-600', 'text-white');
+          b.classList.add('bg-gray-200', 'dark:bg-gray-700');
+        });
+        this.classList.add('active', 'bg-primary-600', 'text-white');
+        this.classList.remove('bg-gray-200', 'dark:bg-gray-700');
+        filter(sec, tag);
+      });
+    });
+  }
+  
+  function filter(sec, tag) {
+    let items = sec.querySelectorAll('.col-12, article, [class*="col-md"]');
+    items.forEach(item => {
+      if (tag === '*') {
+        item.style.display = '';
+      } else {
+        let tags = [];
+        item.querySelectorAll('a[href*="/tags/"]').forEach(link => {
+          let p = link.href.split('/tags/');
+          if (p[1]) tags.push(p[1].replace('/', ''));
+        });
+        item.style.display = tags.includes(tag) ? '' : 'none';
+      }
+    });
+  }
+});
+</script>
