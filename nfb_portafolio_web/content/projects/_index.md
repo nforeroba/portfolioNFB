@@ -10,6 +10,7 @@ design:
 # Page sections
 sections:
   - block: collection
+    id: projects
     content:
       title: Selected Projects
       text: Some of my recent work on Generative AI, Machine Learning and Deep Learning, using open-source or propietary technologies

@@ -55,10 +55,14 @@ sections:
     content:
       title: "Featured Projects"
       subtitle: "Some of my recent work on Generative AI, Machine Learning and Deep Learning, using open-source or propietary technologies"
-      count: 0
+      count: 3
       filters:
         folders:
           - projects
+      archive:
+        enable: true
+        text: "Browse All Projects"
+        link: "/projects/"
     design:
       view: article-grid
       columns: 3
@@ -189,10 +193,14 @@ sections:
     content:
       title: "Recent Posts"
       subtitle: "Thoughts and tutorials on AI, technology, science and more!"
-      count: 0
+      count: 3
       filters:
         folders:
           - blog
+      archive:
+        enable: true
+        text: "Browse All Posts"
+        link: "/blog/"
     design:
       view: article-grid
       columns: 3

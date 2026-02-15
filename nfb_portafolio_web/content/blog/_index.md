@@ -10,6 +10,7 @@ design:
 # Page sections
 sections:
   - block: collection
+    id: blog
     content:
       title: Blog Posts
       text: Thoughts and tutorials on AI, technology, science and more!
