@@ -88,14 +88,12 @@ sections:
               icon: devicon/python
             - name: R
               icon: devicon/rstudio
-            - name: Pandas
-              icon: custom/pandas
             - name: PostgreSQL
               icon: devicon/postgresql
+            - name: Clickhouse
+              icon: custom/clickhouse
             - name: Git
               icon: devicon/git
-            - name: NVIDIA SMI
-              icon: custom/nvidia
         - name: Machine & Deep Learning
           items:
             - name: PyTorch
@@ -132,8 +130,10 @@ sections:
               icon: devicon/streamlit
             - name: Docker
               icon: devicon/docker
-            - name: Linux
+            - name: Linux systemd
               icon: devicon/linux
+            - name: NVIDIA SMI
+              icon: custom/nvidia
     design:
       style: grid
       show_levels: false
