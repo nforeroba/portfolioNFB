@@ -104,6 +104,8 @@ sections:
               icon: devicon/opencv
             - name: Fish Audio
               icon: custom/fishaudio
+            - name: Hugging Face Transformers
+              icon: custom/huggingface
         - name: AI Engineering
           items:
             - name: Ollama
@@ -112,8 +114,6 @@ sections:
               icon: custom/chromadb
             - name: LangChain & LangGraph
               icon: custom/langchain_2
-            - name: Hugging Face Transformers
-              icon: custom/huggingface
             - name: Claude AI
               icon: custom/claudeai
             - name: Gemini AI
