@@ -145,7 +145,8 @@ sections:
                 item.style.display = '';
               } else {
                 const tags = getTags(item);
-                item.style.display = tags.includes(tag) ? '' : 'none';
+                // Compare in lowercase
+                item.style.display = tags.includes(tag.toLowerCase()) ? '' : 'none';
               }
             });
           }
@@ -155,7 +156,9 @@ sections:
             item.querySelectorAll('a[href*="/tags/"]').forEach(link => {
               const parts = link.href.split('/tags/');
               if (parts[1]) {
-                tags.push(parts[1].replace('/', ''));
+                // Normalize to lowercase for comparison
+                const tagName = parts[1].replace('/', '').toLowerCase();
+                if (tagName) tags.push(tagName);
               }
             });
             return tags;
