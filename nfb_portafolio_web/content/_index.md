@@ -99,7 +99,7 @@ sections:
             - name: PyTorch
               icon: devicon/pytorch
             - name: Scikit-learn
-              icon: brands/scikitlearn
+              icon: devicon/scikitlearn
             - name: Hugging Face Transformers
               icon: custom/huggingface
             - name: OpenCV
