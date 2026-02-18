@@ -274,32 +274,29 @@ sections:
             
             console.log('🔗 Navigation link clicked:', href);
             
-            // Find the mobile menu container
-            const mobileMenu = document.querySelector('nav[role="navigation"], nav');
+            // Check if hide-button (X) is visible - means menu is open
+            const hideButton = document.getElementById('hide-button');
             
-            if (!mobileMenu) {
-              console.log('⚠️ Menu not found');
+            if (!hideButton) {
+              console.log('⚠️ Hide button not found');
               return;
             }
             
-            // Check if menu is visible (mobile menu is displayed)
-            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none';
+            // Check if the X button is visible (menu is open)
+            const isMenuOpen = window.getComputedStyle(hideButton).display !== 'none';
             
-            console.log('📱 Menu visible:', isMenuVisible);
+            console.log('📱 Menu open:', isMenuOpen);
             
-            if (isMenuVisible) {
-              console.log('🔒 Closing menu by clicking hamburger button...');
+            if (isMenuOpen) {
+              // Get the parent button
+              const menuButton = hideButton.closest('button');
               
-              // Find hamburger button by its distinctive classes
-              const hamburgerBtn = document.querySelector('button.inline-block.px-3.text-xl');
-              
-              if (hamburgerBtn) {
+              if (menuButton) {
+                console.log('🔒 Closing menu...');
                 setTimeout(() => {
-                  hamburgerBtn.click();
-                  console.log('✅ Menu toggled');
+                  menuButton.click();
+                  console.log('✅ Menu closed');
                 }, 100);
-              } else {
-                console.log('⚠️ Hamburger button not found');
               }
             }
           }, true);
