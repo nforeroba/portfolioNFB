@@ -26,8 +26,11 @@
       {{ range first 1 . }}
         {{ $authorData := index site.Data.authors . }}
         {{ with $authorData }}
+        {{ $avatar := resources.Get "media/authors/me.png" }}
         <div class="flex items-center gap-2">
-          <img src="{{ "media/authors/me.png" | relURL }}" alt="{{ .name.display }}" class="w-6 h-6 rounded-full">
+          {{ with $avatar }}
+          <img src="{{ .RelPermalink }}" alt="{{ $authorData.name.display }}" class="w-6 h-6 rounded-full">
+          {{ end }}
           <span>{{ .name.display }}</span>
         </div>
         {{ end }}
@@ -285,11 +288,14 @@
     {{ range first 1 . }}
       {{ $authorData := index site.Data.authors . }}
       {{ with $authorData }}
+      {{ $avatar := resources.Get "media/authors/me.png" }}
       <div class="border-t border-gray-200 dark:border-gray-700 pt-8">
         <div class="flex gap-6 items-start">
-          <img src="{{ "media/authors/me.png" | relURL }}" 
-               alt="{{ .name.display }}" 
+          {{ with $avatar }}
+          <img src="{{ .RelPermalink }}" 
+               alt="{{ $authorData.name.display }}" 
                class="w-20 h-20 rounded-full flex-shrink-0">
+          {{ end }}
           <div class="flex-1">
             <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-1">
               {{ .name.display }}
