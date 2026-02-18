@@ -269,31 +269,38 @@ sections:
             
             const href = link.getAttribute('href');
             
-            // Match both #section and /#section formats
             if (!href || (!href.startsWith('#') && !href.startsWith('/#'))) return;
-            
-            // Skip empty hashes
             if (href === '#' || href === '/#') return;
             
             console.log('🔗 Navigation link clicked:', href);
             
-            const menuButton = document.querySelector('[aria-controls][aria-expanded]');
+            // Find the mobile menu container
+            const mobileMenu = document.querySelector('nav[role="navigation"], nav');
             
-            if (!menuButton) {
-              console.log('⚠️ Menu button not found');
+            if (!mobileMenu) {
+              console.log('⚠️ Menu not found');
               return;
             }
             
-            const isMenuOpen = menuButton.getAttribute('aria-expanded') === 'true';
+            // Check if menu is visible (mobile menu is displayed)
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none';
             
-            console.log('📱 Menu state:', isMenuOpen ? 'OPEN' : 'CLOSED');
+            console.log('📱 Menu visible:', isMenuVisible);
             
-            if (isMenuOpen) {
-              console.log('🔒 Closing menu...');
-              setTimeout(() => {
-                menuButton.click();
-                console.log('✅ Menu closed');
-              }, 100);
+            if (isMenuVisible) {
+              console.log('🔒 Closing menu by clicking hamburger button...');
+              
+              // Find hamburger button by its distinctive classes
+              const hamburgerBtn = document.querySelector('button.inline-block.px-3.text-xl');
+              
+              if (hamburgerBtn) {
+                setTimeout(() => {
+                  hamburgerBtn.click();
+                  console.log('✅ Menu toggled');
+                }, 100);
+              } else {
+                console.log('⚠️ Hamburger button not found');
+              }
             }
           }, true);
           
