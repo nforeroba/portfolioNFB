@@ -262,8 +262,17 @@ sections:
         (function() {
           console.log('🍔 Mobile menu auto-close script loaded');
           
-          document.addEventListener('DOMContentLoaded', function() {
-            const navLinks = document.querySelectorAll('nav a[href^="#"], header a[href^="#"]');
+          // Wait for Alpine.js to finish loading
+          document.addEventListener('alpine:init', function() {
+            console.log('⏰ Alpine initialized, setting up menu listeners');
+            initMenuAutoClose();
+          });
+          
+          // Fallback if Alpine event doesn't fire
+          setTimeout(initMenuAutoClose, 2000);
+          
+          function initMenuAutoClose() {
+            const navLinks = document.querySelectorAll('a[href^="#"]');
             
             if (navLinks.length === 0) {
               console.log('⚠️ No navigation links found');
@@ -274,21 +283,28 @@ sections:
             
             navLinks.forEach(link => {
               link.addEventListener('click', function(e) {
-                const mobileMenuButton = document.querySelector('button[data-toggle="navigation"], button[aria-expanded]');
+                console.log('🔗 Link clicked:', link.getAttribute('href'));
                 
-                if (!mobileMenuButton) return;
+                const mobileMenuButton = document.querySelector('button[aria-controls], button[data-collapse-toggle]');
+                
+                if (!mobileMenuButton) {
+                  console.log('⚠️ Menu button not found');
+                  return;
+                }
                 
                 const isMenuOpen = mobileMenuButton.getAttribute('aria-expanded') === 'true';
                 
+                console.log('📱 Menu open?', isMenuOpen);
+                
                 if (isMenuOpen) {
-                  console.log('📱 Closing menu');
+                  console.log('🔒 Closing menu in 150ms');
                   setTimeout(() => {
                     mobileMenuButton.click();
-                  }, 300);
+                  }, 150);
                 }
               });
             });
-          });
+          }
         })();
         </script>
 ---
