@@ -262,21 +262,21 @@ sections:
         (function() {
           console.log('🍔 Mobile menu auto-close script loaded');
           
-          // Use event delegation - listen on document
           document.addEventListener('click', function(e) {
-            // Check if clicked element is a navigation link with hash
-            const link = e.target.closest('a[href^="#"]');
+            const link = e.target.closest('a');
             
             if (!link) return;
             
             const href = link.getAttribute('href');
             
-            // Only process navigation links (not empty hashes)
-            if (href === '#' || href.length < 2) return;
+            // Match both #section and /#section formats
+            if (!href || (!href.startsWith('#') && !href.startsWith('/#'))) return;
+            
+            // Skip empty hashes
+            if (href === '#' || href === '/#') return;
             
             console.log('🔗 Navigation link clicked:', href);
             
-            // Find mobile menu button
             const menuButton = document.querySelector('[aria-controls][aria-expanded]');
             
             if (!menuButton) {
@@ -295,7 +295,7 @@ sections:
                 console.log('✅ Menu closed');
               }, 100);
             }
-          }, true); // Use capture phase
+          }, true);
           
           console.log('✅ Event delegation setup complete');
         })();
