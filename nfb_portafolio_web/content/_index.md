@@ -254,4 +254,41 @@ sections:
           dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "6rem", "0"]
+  
+  - block: markdown
+    content:
+      text: |
+        <script>
+        (function() {
+          console.log('🍔 Mobile menu auto-close script loaded');
+          
+          document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a[href^="#"], header a[href^="#"]');
+            
+            if (navLinks.length === 0) {
+              console.log('⚠️ No navigation links found');
+              return;
+            }
+            
+            console.log('✅ Found ' + navLinks.length + ' navigation links');
+            
+            navLinks.forEach(link => {
+              link.addEventListener('click', function(e) {
+                const mobileMenuButton = document.querySelector('button[data-toggle="navigation"], button[aria-expanded]');
+                
+                if (!mobileMenuButton) return;
+                
+                const isMenuOpen = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                
+                if (isMenuOpen) {
+                  console.log('📱 Closing menu');
+                  setTimeout(() => {
+                    mobileMenuButton.click();
+                  }, 300);
+                }
+              });
+            });
+          });
+        })();
+        </script>
 ---
