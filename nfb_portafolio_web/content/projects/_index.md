@@ -34,7 +34,7 @@ sections:
           document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
               initFilters();
-            }, 50);
+            }, 30);
           });
           
           function initFilters() {

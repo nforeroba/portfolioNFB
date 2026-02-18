@@ -9,7 +9,7 @@
 # ============================================================================
 
 # === BASIC FIELDS (Required for all) ===
-title: "Project Title"
+title: "Blog Title"
 date: 2026-02-17
 summary: "Brief description that appears in cards and meta tags"
 authors:
