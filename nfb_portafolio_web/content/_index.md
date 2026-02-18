@@ -274,30 +274,21 @@ sections:
             
             console.log('🔗 Navigation link clicked:', href);
             
-            // Check if hide-button (X) is visible - means menu is open
-            const hideButton = document.getElementById('hide-button');
+            // Find the navigation toggle checkbox
+            const navToggle = document.getElementById('nav-toggle');
             
-            if (!hideButton) {
-              console.log('⚠️ Hide button not found');
+            if (!navToggle) {
+              console.log('⚠️ Nav toggle not found');
               return;
             }
             
-            // Check if the X button is visible (menu is open)
-            const isMenuOpen = window.getComputedStyle(hideButton).display !== 'none';
-            
-            console.log('📱 Menu open:', isMenuOpen);
-            
-            if (isMenuOpen) {
-              // Get the parent button
-              const menuButton = hideButton.closest('button');
-              
-              if (menuButton) {
-                console.log('🔒 Closing menu...');
-                setTimeout(() => {
-                  menuButton.click();
-                  console.log('✅ Menu closed');
-                }, 100);
-              }
+            // Check if menu is open (checkbox is checked)
+            if (navToggle.checked) {
+              console.log('📱 Menu is open, closing...');
+              setTimeout(() => {
+                navToggle.checked = false;
+                console.log('✅ Menu closed');
+              }, 100);
             }
           }, true);
           
