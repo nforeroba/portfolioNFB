@@ -262,49 +262,42 @@ sections:
         (function() {
           console.log('🍔 Mobile menu auto-close script loaded');
           
-          // Wait for Alpine.js to finish loading
-          document.addEventListener('alpine:init', function() {
-            console.log('⏰ Alpine initialized, setting up menu listeners');
-            initMenuAutoClose();
-          });
-          
-          // Fallback if Alpine event doesn't fire
-          setTimeout(initMenuAutoClose, 2000);
-          
-          function initMenuAutoClose() {
-            const navLinks = document.querySelectorAll('a[href^="#"]');
+          // Use event delegation - listen on document
+          document.addEventListener('click', function(e) {
+            // Check if clicked element is a navigation link with hash
+            const link = e.target.closest('a[href^="#"]');
             
-            if (navLinks.length === 0) {
-              console.log('⚠️ No navigation links found');
+            if (!link) return;
+            
+            const href = link.getAttribute('href');
+            
+            // Only process navigation links (not empty hashes)
+            if (href === '#' || href.length < 2) return;
+            
+            console.log('🔗 Navigation link clicked:', href);
+            
+            // Find mobile menu button
+            const menuButton = document.querySelector('[aria-controls][aria-expanded]');
+            
+            if (!menuButton) {
+              console.log('⚠️ Menu button not found');
               return;
             }
             
-            console.log('✅ Found ' + navLinks.length + ' navigation links');
+            const isMenuOpen = menuButton.getAttribute('aria-expanded') === 'true';
             
-            navLinks.forEach(link => {
-              link.addEventListener('click', function(e) {
-                console.log('🔗 Link clicked:', link.getAttribute('href'));
-                
-                const mobileMenuButton = document.querySelector('button[aria-controls], button[data-collapse-toggle]');
-                
-                if (!mobileMenuButton) {
-                  console.log('⚠️ Menu button not found');
-                  return;
-                }
-                
-                const isMenuOpen = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-                
-                console.log('📱 Menu open?', isMenuOpen);
-                
-                if (isMenuOpen) {
-                  console.log('🔒 Closing menu in 150ms');
-                  setTimeout(() => {
-                    mobileMenuButton.click();
-                  }, 150);
-                }
-              });
-            });
-          }
+            console.log('📱 Menu state:', isMenuOpen ? 'OPEN' : 'CLOSED');
+            
+            if (isMenuOpen) {
+              console.log('🔒 Closing menu...');
+              setTimeout(() => {
+                menuButton.click();
+                console.log('✅ Menu closed');
+              }, 100);
+            }
+          }, true); // Use capture phase
+          
+          console.log('✅ Event delegation setup complete');
         })();
         </script>
 ---
