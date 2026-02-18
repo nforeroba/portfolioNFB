@@ -28,15 +28,15 @@ links:
   # - icon: brands/x
   #   url: https://x.com/alexjohnson
 
-interests:
-  - AI Engineering
-  - Data Science
-  - Machine Learning
-  - Deep Learning
-  - OCR Technology
-  - Speech Synthesis
-  - PC Building
-  - Open Source
+# interests: # useless, i dont see any of this
+#   - AI Engineering
+#   - Data Science
+#   - Machine Learning
+#   - Deep Learning
+#   - OCR Technology
+#   - Speech Synthesis
+#   - PC Building
+#   - Open Source
 
 education:
   - degree: Master's in Applied Statistics and Data Science
@@ -100,7 +100,7 @@ experience:
       🏭 Provided scientific and technical support to Mint and Treasury plants<br>
       🔍 Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives
 
-# skills:
+# skills: # useless, i dont see any of this
 #   - name: Development
 #     items:
 #       - label: TypeScript
