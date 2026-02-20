@@ -233,27 +233,27 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
   
   # CTA Card
-  - block: cta-card
-    content:
-      title: "Open to Opportunities"
-      text: |-
-        I'm looking for **AI engineering**, **AI development** and/or **Data Science** roles.
-        Get to know me through this website or my resume below **↓**
-      button:
-        text: 'Download Resume'
-        url: uploads/nicolas_forero_baena_resume_2026.pdf
-        new_tab: true
-    design:
-      card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
-        css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
-        text_color: dark
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "6rem", "0"]
+  # - block: cta-card
+  #   content:
+  #     title: "Open to Opportunities"
+  #     text: |-
+  #       I'm looking for **AI engineering**, **AI development** and/or **Data Science** roles.
+  #       Get to know me through this website or my resume below **↓**
+  #     button:
+  #       text: 'Download Resume'
+  #       url: uploads/nicolas_forero_baena_resume_2026.pdf
+  #       new_tab: true
+  #   design:
+  #     card:
+  #       # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
+  #       css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
+  #       text_color: dark
+  #     background:
+  #       color:
+  #         light: "#f5f5f5"
+  #         dark: "#08080c"
+  #     spacing:
+  #       padding: ["4rem", "0", "6rem", "0"]
   
   - block: markdown
     content:

@@ -11,7 +11,7 @@ status:
 role: •••
 email: nikorasu.fb@outlook.com
 bio: |
-  Data Scientist with AI Engineering & Development experience in the BPO, manufacturing, and retail sectors. Focused on quality, security, UX and continuous improvement
+  Data Scientist with AI Engineering & Development experience in the BPO, manufacturing, and retail sectors. Open to oportunities!
 
 affiliations:
   - name: Nicolás Forero-Baena
@@ -23,10 +23,12 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/nforeroba/portfolioNFB.git
+    label: GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/
-  # - icon: brands/x
-  #   url: https://x.com/alexjohnson
+    label: LinkedIn
+  - icon: document
+    url: uploads/nicolas_forero_baena_resume_2026.pdf
 
 # interests: # useless, i dont see any of this
 #   - AI Engineering
