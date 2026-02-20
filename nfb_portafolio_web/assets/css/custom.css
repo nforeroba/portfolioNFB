@@ -15,30 +15,18 @@ html {
   scroll-padding-top: 250px;
 }
 
-/* Fix card metadata on mobile - show full name, date, and reading time */
-@media (max-width: 768px) {
-  /* Article cards metadata container */
-  .article-metadata {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 0.5rem !important;
-    align-items: flex-start !important;
+/* Fix card metadata on mobile */
+@media (max-width: 640px) {
+  /* Show date and reading time that are hidden by default */
+  .hidden.sm\:inline {
+    display: inline !important;
   }
   
-  /* Author name - don't truncate */
-  .article-metadata .article-metadata-author {
+  /* Don't truncate author name */
+  .truncate.max-w-\[9rem\] {
     max-width: none !important;
-    white-space: normal !important;
     overflow: visible !important;
     text-overflow: clip !important;
-  }
-  
-  /* Show date and reading time */
-  .article-metadata time,
-  .article-metadata .middot-divider,
-  .article-metadata .article-metadata-reading-time {
-    display: inline !important;
-    opacity: 1 !important;
-    visibility: visible !important;
+    white-space: normal !important;
   }
 }
