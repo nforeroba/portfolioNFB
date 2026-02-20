@@ -1,18 +1,44 @@
 /* Fix scroll offset for sticky header */
 :target {
-  scroll-margin-top: 200px;
+  scroll-margin-top: 250px;
 }
 
-/* Alternative: apply to all sections and headings */
 section[id],
 h1[id],
 h2[id],
 h3[id] {
-  scroll-margin-top: 200px;
+  scroll-margin-top: 250px;
 }
 
-/* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 200px;
+  scroll-padding-top: 250px;
+}
+
+/* Fix card metadata on mobile - show full name, date, and reading time */
+@media (max-width: 768px) {
+  /* Article cards metadata container */
+  .article-metadata {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+    align-items: flex-start !important;
+  }
+  
+  /* Author name - don't truncate */
+  .article-metadata .article-metadata-author {
+    max-width: none !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+  
+  /* Show date and reading time */
+  .article-metadata time,
+  .article-metadata .middot-divider,
+  .article-metadata .article-metadata-reading-time {
+    display: inline !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
 }
