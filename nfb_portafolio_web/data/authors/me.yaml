@@ -27,7 +27,7 @@ links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/
     label: LinkedIn
-  - icon: document
+  - icon: academicons/cv
     url: uploads/nicolas_forero_baena_resume_2026.pdf
     label: Download Resume!
 

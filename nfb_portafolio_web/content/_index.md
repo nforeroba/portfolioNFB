@@ -262,6 +262,16 @@ sections:
         (function() {
           console.log('🍔 Mobile menu auto-close script loaded');
           
+          // FIX: Scroll to top when navigating to /projects/ or /blog/ without hash
+          if (window.location.pathname === '/projects/' || window.location.pathname === '/blog/') {
+            if (!window.location.hash) {
+              console.log('📍 Landing on list page, scrolling to top');
+              setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: 'instant' });
+              }, 50);
+            }
+          }
+          
           document.addEventListener('click', function(e) {
             const link = e.target.closest('a');
             
@@ -274,7 +284,6 @@ sections:
             
             console.log('🔗 Navigation link clicked:', href);
             
-            // Find the navigation toggle checkbox
             const navToggle = document.getElementById('nav-toggle');
             
             if (!navToggle) {
@@ -282,7 +291,6 @@ sections:
               return;
             }
             
-            // Check if menu is open (checkbox is checked)
             if (navToggle.checked) {
               console.log('📱 Menu is open, closing...');
               setTimeout(() => {
