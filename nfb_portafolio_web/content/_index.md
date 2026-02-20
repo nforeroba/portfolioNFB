@@ -191,7 +191,7 @@ sections:
   - block: collection
     id: blog
     content:
-      title: "Recent Posts"
+      title: "Recent Blog Posts"
       subtitle: "Thoughts and tutorials on AI, technology, science and more!"
       count: 3
       filters:
@@ -262,15 +262,28 @@ sections:
         (function() {
           console.log('🍔 Mobile menu auto-close script loaded');
           
-          // FIX: Scroll to top when navigating to /projects/ or /blog/ without hash
-          if (window.location.pathname === '/projects/' || window.location.pathname === '/blog/') {
-            if (!window.location.hash) {
-              console.log('📍 Landing on list page, scrolling to top');
-              setTimeout(() => {
-                window.scrollTo({ top: 0, behavior: 'instant' });
-              }, 50);
+          // FIX: Aggressive scroll to top for list pages
+          function forceScrollToTop() {
+            if (window.location.pathname === '/projects/' || window.location.pathname === '/blog/') {
+              if (!window.location.hash) {
+                console.log('📍 Forcing scroll to top');
+                window.scrollTo(0, 0);
+              }
             }
           }
+          
+          // Execute immediately
+          forceScrollToTop();
+          
+          // Execute when DOM loads
+          document.addEventListener('DOMContentLoaded', forceScrollToTop);
+          
+          // Execute when page fully loads
+          window.addEventListener('load', forceScrollToTop);
+          
+          // Execute after a short delay (catches late scrolls)
+          setTimeout(forceScrollToTop, 100);
+          setTimeout(forceScrollToTop, 300);
           
           document.addEventListener('click', function(e) {
             const link = e.target.closest('a');
