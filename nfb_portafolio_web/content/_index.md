@@ -50,18 +50,6 @@ sections:
         padding: ["6rem", "0", "4rem", "0"]
   
   # Filterable Portfolio - Alpine.js powered project filtering
-  - block: markdown
-    content:
-      text: |
-        <div class="text-center mb-6">
-          <a href="/projects/" class="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all duration-200 font-medium shadow-sm hover:shadow-md">
-            Browse All Projects
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-            </svg>
-          </a>
-        </div>
-  
   - block: collection
     id: projects
     content:
@@ -71,6 +59,10 @@ sections:
       filters:
         folders:
           - projects
+      archive:
+        enable: true
+        text: "Browse All Projects"
+        link: "/projects/"
     design:
       view: article-grid
       columns: 3
@@ -196,18 +188,6 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
   
   # Recent Blog Posts
-  - block: markdown
-    content:
-      text: |
-        <div class="text-center mb-6">
-          <a href="/blog/" class="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all duration-200 font-medium shadow-sm hover:shadow-md">
-            Browse All Posts
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-            </svg>
-          </a>
-        </div>
-  
   - block: collection
     id: blog
     content:
@@ -217,6 +197,10 @@ sections:
       filters:
         folders:
           - blog
+      archive:
+        enable: true
+        text: "Browse All Posts"
+        link: "/blog/"
     design:
       view: article-grid
       columns: 3
@@ -277,16 +261,6 @@ sections:
         <script>
         (function() {
           console.log('🍔 Mobile menu auto-close script loaded');
-          
-          // FIX: Scroll to top when navigating to /projects/ or /blog/ without hash
-          if (window.location.pathname === '/projects/' || window.location.pathname === '/blog/') {
-            if (!window.location.hash) {
-              console.log('📍 Landing on list page, scrolling to top');
-              setTimeout(() => {
-                window.scrollTo({ top: 0, behavior: 'instant' });
-              }, 50);
-            }
-          }
           
           document.addEventListener('click', function(e) {
             const link = e.target.closest('a');

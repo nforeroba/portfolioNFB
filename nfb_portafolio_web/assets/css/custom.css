@@ -1,6 +1,6 @@
 /* Fix scroll offset for sticky header */
 :target {
-  scroll-margin-top: 250px;
+  scroll-margin-top: 200px;
 }
 
 /* Alternative: apply to all sections and headings */
@@ -8,11 +8,11 @@ section[id],
 h1[id],
 h2[id],
 h3[id] {
-  scroll-margin-top: 250px;
+  scroll-margin-top: 200px;
 }
 
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 250px;
+  scroll-padding-top: 200px;
 }
