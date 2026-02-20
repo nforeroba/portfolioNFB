@@ -295,4 +295,9 @@ sections:
           console.log('✅ Event delegation setup complete');
         })();
         </script>
+  
+  - block: markdown
+    content:
+      text: |
+        <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 ---
