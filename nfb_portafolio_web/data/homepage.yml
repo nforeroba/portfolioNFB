@@ -6,25 +6,36 @@ showcase:
   enable: true
   title: "Nicolás Forero-Baena"
   #subtitle: "Data Scientist | AI Engineering | Generative AI Development"
-  description: "Data Scientist with AI Engineering & Development experience"
+  description: "Data Scientist with AI Engineering & Development experience in BPO, manufacture and retail companies. BSc, MSc"
   # image:
   #   x: "img/showcase/OIG2.jpeg"
   #   _2x: "img/showcase/OIG2.jpeg"
   # imageMobile:
   #   x: "img/showcase/OIG2.jpeg"
   #   _2x: "img/showcase/OIG2.jpeg"
-    
-  button:
-    icon: "icon-mail-fill"
+  buttons:
+  - icon: "icon-mail-fill"
     btnText: "Contact me"
-    URL: 'mailto: nforerob@unal.edu.co'
-   
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
+    URL: 'mailto:nforerob@unal.edu.co'
 
-    - icon: "github"
-      URL: "https://github.com/nforeroba/portfolioNFB.git"
+  - icon: "linkedin"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
+
+  - icon: "github"
+    btnText: "GitHub"
+    URL: "https://github.com/nforeroba/portfolioNFB.git"  
+  # button:
+  #   icon: "icon-mail-fill"
+  #   btnText: "Contact me"
+  #   URL: 'mailto: nforerob@unal.edu.co'
+   
+  # socialLinks:
+  #   - icon: "linkedin"
+  #     URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
+
+  #   - icon: "github"
+  #     URL: "https://github.com/nforeroba/portfolioNFB.git"
 
 # about
 about:
