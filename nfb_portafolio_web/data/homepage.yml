@@ -7,12 +7,12 @@ showcase:
   title: "Nicolás Forero-Baena"
   #subtitle: "Data Scientist | AI Engineering | Generative AI Development"
   description: "Data Scientist with AI Engineering & Development experience in BPO, manufacture and retail companies. BSc, MSc"
-  # image:
-  #   x: "img/showcase/OIG2.jpeg"
-  #   _2x: "img/showcase/OIG2.jpeg"
-  # imageMobile:
-  #   x: "img/showcase/OIG2.jpeg"
-  #   _2x: "img/showcase/OIG2.jpeg"
+  image:
+    x: "img/showcase/Blue.jpg"
+    _2x: "img/showcase/Blue.jpg"
+  imageMobile:
+    x: "img/showcase/Blue.jpg"
+    _2x: "img/showcase/Blue.jpg"
   
   button:
     icon: "icon-mail-fill"
