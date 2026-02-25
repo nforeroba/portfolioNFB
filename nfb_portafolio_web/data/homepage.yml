@@ -13,29 +13,18 @@ showcase:
   # imageMobile:
   #   x: "img/showcase/OIG2.jpeg"
   #   _2x: "img/showcase/OIG2.jpeg"
-  buttons:
-  - icon: "icon-mail-fill"
+  
+  button:
+    icon: "icon-mail-fill"
     btnText: "Contact me"
     URL: 'mailto:nforerob@unal.edu.co'
-
-  - icon: "linkedin"
-    btnText: "LinkedIn"
-    URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
-
-  - icon: "github"
-    btnText: "GitHub"
-    URL: "https://github.com/nforeroba/portfolioNFB.git"  
-  # button:
-  #   icon: "icon-mail-fill"
-  #   btnText: "Contact me"
-  #   URL: 'mailto: nforerob@unal.edu.co'
    
-  # socialLinks:
-  #   - icon: "linkedin"
-  #     URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
 
-  #   - icon: "github"
-  #     URL: "https://github.com/nforeroba/portfolioNFB.git"
+    - icon: "github"
+      URL: "https://github.com/nforeroba/portfolioNFB.git"
 
 # about
 about:
