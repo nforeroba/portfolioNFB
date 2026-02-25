@@ -19,7 +19,7 @@ params:
       - URL: js/sticky-header.js
       - URL: js/library/fontfaceobserver.js
   sections:
-    - showcase
+    # - showcase
     - about
     - client-and-work
     - experience
