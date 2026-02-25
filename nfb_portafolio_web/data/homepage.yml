@@ -8,11 +8,11 @@ showcase:
   #subtitle: "Data Scientist | AI Engineering | Generative AI Development"
   description: "Data Scientist with AI Engineering & Development experience in BPO, manufacture and retail companies. BSc, MSc"
   image:
-    x: "img/showcase/wafer.png"
-    _2x: "img/showcase/wafer.png"
+    x: "img/showcase/OIG2.jpeg"
+    _2x: "img/showcase/OIG2.jpeg"
   imageMobile:
-    x: "img/showcase/wafer.png"
-    _2x: "img/showcase/wafer.png"
+    x: "img/showcase/OIG2.jpeg"
+    _2x: "img/showcase/OIG2.jpeg"
   
   button:
     icon: "icon-mail-fill"
