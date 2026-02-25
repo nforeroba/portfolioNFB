@@ -8,17 +8,15 @@ showcase:
   #subtitle: "Data Scientist | AI Engineering | Generative AI Development"
   description: "Data Scientist with AI Engineering & Development experience in BPO, manufacture and retail companies. BSc, MSc"
   image:
-    x: "img/showcase/OIG2.jpeg"
-    _2x: "img/showcase/OIG2.jpeg"
+    x: "img/showcase/brain.png"
+    _2x: "img/showcase/brain.png"
   imageMobile:
-    x: "img/showcase/OIG2.jpeg"
-    _2x: "img/showcase/OIG2.jpeg"
-  
+    x: "img/showcase/brain.png"
+    _2x: "img/showcase/brain.png"
   button:
     icon: "icon-mail-fill"
     btnText: "Contact me"
     URL: 'mailto:nforerob@unal.edu.co'
-   
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/nicol%C3%A1s-f-3a184b156/"
