@@ -152,6 +152,10 @@ Summary paragraph wrapping up the main points.
 
 ---
 
+**Project Status**: ✅ Live in Production  
+**GitHub**: [View Source Code](https://github.com/alexjohnson/ecommerce-platform)  
+**Demo**: [Try it Live](https://shop-demo.example.com)
+
 <!-- 
   NOTES:
   - Don't add author info here (auto-generated at bottom)
