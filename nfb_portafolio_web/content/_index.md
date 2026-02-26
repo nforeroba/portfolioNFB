@@ -65,7 +65,7 @@ sections:
         link: "/projects/"
     design:
       view: article-grid
-      columns: 3
+      columns: 1
       fill_image: false
       show_read_more: false
       background:
@@ -203,7 +203,7 @@ sections:
         link: "/blog/"
     design:
       view: article-grid
-      columns: 3
+      columns: 1
       fill_image: false
       show_read_more: false
       background:
