@@ -126,11 +126,11 @@ sections:
               icon: custom/chromadb
             - name: LangChain & LangGraph
               icon: custom/langchain_2
-            - name: Claude AI
+            - name: Claude
               icon: custom/claudeai
-            - name: Gemini AI
+            - name: Gemini
               icon: custom/geminiai
-            - name: Mistral AI
+            - name: Mistral
               icon: custom/mistralai
             - name: OpenAI
               icon: custom/openai
