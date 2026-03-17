@@ -92,7 +92,11 @@ Before running the forecast, note that there is a symbol information card with u
 
 ![Control panel](1.png)
 
-bbb
+Click the green button to run the forecast. It will take a minute, please be patient. The app is running on a free tier space on hugging face.
+
+![Validation chart](2.png)
+
+The first plot you will see is the validation plot. It shows the time series of the symbol's closing price and the forecasts after the test split. Each color represents a model, but it's fair to say it is quite colorfun and crowded. Fortunately, you can click one or more models in the horizontal legend under the plot in order to show or hide them. Also, you can hover along the time series to compare the predictions versus the actual data, day by day, and their confidence intervals as well.
 
 ## Conclusion
 
