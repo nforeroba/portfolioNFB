@@ -65,7 +65,7 @@ fin_fore_app/
 │   └── models/
 │       ├── orchestrator.py    # Central pipeline coordinator
 │       ├── statistical.py     # AutoARIMA, AutoETS, Theta
-│       ├── prophet_model.py   # Prophet + Prophet+XGBoost errors
+│       ├── prophet_model.py   # Prophet + Prophet+XGBoost residues
 │       └── ml_models.py       # ElasticNet, RF, XGBoost + MAPIE
 ```  
 
