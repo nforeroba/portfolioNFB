@@ -32,7 +32,8 @@ links:
     label: Code
   - type: live
     url: https://huggingface.co/spaces/nikoniko23/fin_fore_app
-    label: Demo
+    label: Launch
+
 
 status: "Live"                    
 role: "Solo Developer"            
@@ -127,4 +128,4 @@ This financial forecasting app not only trains several models with financial inf
 
 **Project Status**: ✅ Live in Production  
 **GitHub**: [View Source Code](https://github.com/nforeroba/fin_fore_app)  
-**Demo**: [Try it Live](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
+**Launch**: [Try it Live](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
