@@ -11,13 +11,13 @@ tags:
 
 featured: false
 ---
-Brief introduction paragraph explaining what this project/post is about.
+This brief blog post is about my first and current PC build. Initially meant for gaming, it has become my daily driver for coding, experimentation, development and AI. Almost 6 years after building it, it's reliable and competitive against newer hardware, specially during hardware shortages and price increases due to the AI craze.
 
-## Section 1: Main Topic
+## How It Started
 
-### Subsection 1.1
+Back in 2014, right in the middle of my MSc studies, I decided to buy a new computer to replace my kinda old laptop than my beloved father bought for me on 2008. 
 
-More detailed content here.
+![First Gaming PC](1.png)
 
 ### Subsection 1.2
 
