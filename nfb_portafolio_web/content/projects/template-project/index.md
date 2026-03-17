@@ -66,7 +66,7 @@ team_size: 1                      # Number of people
 # === HIGHLIGHTS (Projects only) ===
 # Key achievements or metrics
 highlights:
-  - "Symbols: 500+ stocks, 100 crypto and 28 FX pairs available"
+  - "500+ stocks, 100 crypto and 28 FX pairs available"
   - "8 forecasting models with different performance, bias and overfitting metrics"
   - "Deployed on Hugging Face Spaces via Docker"
 
@@ -159,9 +159,9 @@ Summary paragraph wrapping up the main points.
 
 ---
 
-**Project Status**: ✅ Live in Production  
-**GitHub**: [View Source Code](https://github.com/alexjohnson/ecommerce-platform)  
-**Demo**: [Try it Live](https://shop-demo.example.com)
+**Project Status**: ✅ Live in Production @ Hugging Face Spaces
+**GitHub**: [View Source Code](https://github.com/nforeroba/fin_fore_app)  
+**Demo**: [Try it Live](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
 
 <!-- 
   NOTES:
