@@ -44,4 +44,4 @@ Explain technical aspects, implementation, or methodology.
 Summary paragraph wrapping up the main points.
 
 ---
-**GitHub**: [Check my GitHub profile](https://github.com/nforeroba)
+[Check my GitHub profile](https://github.com/nforeroba)
