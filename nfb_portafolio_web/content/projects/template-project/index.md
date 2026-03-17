@@ -47,27 +47,33 @@ highlights:
 
 This is a financial asset forecasting application built with Python and Dash. It lets users select S&P500 stocks, top cryptocurrencies or FX pairs, configure a training window and forecast horizon, and run 8 forecasting models simultaneously. The performance of the models can be assessed by means of various metrics in order to choose the best ones for the forecast horizon plot.
 
-## Section 1: Main Topic
+## Architecture
 
-Content for your first major section. Use ## for main sections, ### for subsections.
+This is a Dash app. You can see the structure of the project below:  
 
-### Subsection 1.1
+```
+fin_fore_app/
+├── app.py                     # Dash entry point
+├── assets/style.css           # Theme, styles
+├── src/
+│   ├── data/loader.py         # yfinance + dynamic symbol loaders
+│   ├── layout/
+│   │   ├── components.py      # Header, control panel and symbol information card
+│   │   └── plots.py           # Plotly charts (validation and forecast) + metrics table
+│   ├── callbacks/
+│   │   └── forecast.py        # App callbacks
+│   └── models/
+│       ├── orchestrator.py    # Central pipeline coordinator
+│       ├── statistical.py     # AutoARIMA, AutoETS, Theta
+│       ├── prophet_model.py   # Prophet + Prophet+XGBoost
+│       └── ml_models.py       # ElasticNet, RF, XGBoost + MAPIE
+```
 
-More detailed content here.
 
-### Subsection 1.2
-
-Additional details.
 
 ## Section 2
 
 Content for your second major section.
-
-## Future Work
-
-- [ ] Feature or improvement 1
-- [ ] Feature or improvement 2
-- [ ] Feature or improvement 3
 
 ## Conclusion
 
@@ -78,11 +84,3 @@ Summary paragraph wrapping up the main points.
 **Project Status**: ✅ Live in Production  
 **GitHub**: [View Source Code](https://github.com/nforeroba/fin_fore_app)  
 **Demo**: [Try it Live](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
-
-<!-- 
-  NOTES:
-  - Don't add author info here (auto-generated at bottom)
-  - Don't add share buttons (auto-generated)
-  - Images: Place featured.png/jpg in same folder as index.md
-  - Other images: Reference as ![Alt text](image.png)
--->
