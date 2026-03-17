@@ -96,7 +96,17 @@ Click the green button to run the forecast. It will take a minute, please be pat
 
 ![Validation chart](2.png)
 
-The first plot you will see is the validation plot. It shows the time series of the symbol's closing price and the forecasts after the test split. Each color represents a model, but it's fair to say it is quite colorfun and crowded. Fortunately, you can click one or more models in the horizontal legend under the plot in order to show or hide them. Also, you can hover along the time series to compare the predictions versus the actual data, day by day, and their confidence intervals as well.
+The first plot you will see is the validation plot. It shows the time series of the symbol's closing price and the forecasts after the test split. Each color represents a model, but it's fair to say it is quite colorful and crowded. Fortunately, you can click one or more models in the horizontal legend under the plot in order to show or hide them. Also, you can hover along the time series to compare the predictions versus the actual data, day by day, and their confidence intervals as well.
+
+![Metrics table](3.png)
+
+The table shows different relevant metrics for each model:  
+- **MAE:** Mean Absolute Error
+- **RMSE:** Root Mean Squared Error
+- **MAPE:** Mean Absolute Percentage Error
+- **SMAPE:** Symmetric Mean Absolute Percentage Error
+- **BIAS:** Mean Percentage Error (MPE) — signed version of MAPE, reveals systematic over/underestimation
+- **OVERFIT:** Overfitting indicator — ratio of train MAPE to test MAPE, flags models that memorize training data but fail to generalize. *Overfit thresholds differ by model family*.
 
 ## Conclusion
 
