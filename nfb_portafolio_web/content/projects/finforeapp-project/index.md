@@ -71,7 +71,7 @@ fin_fore_app/
 
 It is far from being a monolithic app. The functions and elements are clearly separated, useful for troubleshooting.
 
-## Forecasting Models
+### Forecasting Models
 
 | Model | Family | Description |
 |---|---|---|
