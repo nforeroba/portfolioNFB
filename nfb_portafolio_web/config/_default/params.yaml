@@ -232,7 +232,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   repository:
     enable: false
-    url: "https://github.com/nforeroba/portfolioNFB.git" # e.g., https://github.com/username/repo
+    url: "https://github.com/nforeroba" # e.g., https://github.com/username/repo
     branch: main
     content_dir: content
 
