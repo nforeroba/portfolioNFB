@@ -65,9 +65,24 @@ fin_fore_app/
 │   └── models/
 │       ├── orchestrator.py    # Central pipeline coordinator
 │       ├── statistical.py     # AutoARIMA, AutoETS, Theta
-│       ├── prophet_model.py   # Prophet + Prophet+XGBoost
+│       ├── prophet_model.py   # Prophet + Prophet+XGBoost errors
 │       └── ml_models.py       # ElasticNet, RF, XGBoost + MAPIE
-```
+```  
+
+## Forecasting Models
+
+| Model | Family | Description |
+|---|---|---|
+| AutoARIMA | Statistical | Auto-selects the optimal ARIMA order with drift enabled to capture linear upward trends common in financial series. Uses a season length of 5 to match the 5-day trading week. |
+| AutoETS | Statistical | Automatically selects the best Error-Trend-Seasonality combination. Robust for series with clear trend and seasonal patterns. |
+| Theta | Statistical | Dynamic Optimized Theta method. Decomposes the series into two lines with different slopes, effective for series with low volatility and smooth trends. |
+| Prophet | Additive | Meta's forecasting model. Decomposes the series into trend, seasonality, and holiday effects. Configured with US market holidays and 90% uncertainty intervals. |
+| Prophet + XGBoost | Hybrid | Prophet models trend and seasonality; XGBoost fits the in-sample residuals using calendar and cyclic features. Final prediction is the sum of both components. |
+| ElasticNet | Lag-Based ML | Regularized linear regression (L1 + L2). Trained on lag features, rolling statistics, and Fourier terms. Confidence intervals via conformal prediction (MAPIE). |
+| Random Forest | Lag-Based ML | Ensemble of decision trees. Captures non-linear relationships between lag features and future prices. Confidence intervals via conformal prediction (MAPIE). |
+| XGBoost | Lag-Based ML | Gradient boosting on lag features and calendar components. Typically the strongest ML baseline for financial time series. Confidence intervals via conformal prediction (MAPIE). |  
+
+
 
 
 
