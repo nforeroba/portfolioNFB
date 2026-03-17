@@ -93,7 +93,7 @@ highlights:
   10. Author info (auto-added)
 -->
 
-Brief introduction paragraph explaining what this project/post is about.
+This is a financial asset forecasting application built with Python and Dash. It lets users select S&P500 stocks, top cryptocurrencies or FX pairs, configure a training window and forecast horizon, and run 8 forecasting models simultaneously. The performance of the models can be assessed by means of various metrics in order to choose the best ones for the forecast horizon plot.
 
 ## Section 1: Main Topic
 
@@ -159,7 +159,7 @@ Summary paragraph wrapping up the main points.
 
 ---
 
-**Project Status**: ✅ Live in Production @ Hugging Face Spaces
+**Project Status**: ✅ Live in Production
 **GitHub**: [View Source Code](https://github.com/nforeroba/fin_fore_app)  
 **Demo**: [Try it Live](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
 
