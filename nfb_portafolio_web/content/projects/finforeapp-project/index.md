@@ -84,9 +84,15 @@ fin_fore_app/
 
 The goal was to compare models from different families and observe their strengths and weaknesses in practice on real financial data.
 
-## Results
+## Usage
 
-Content for your second major section.
+We have 3 different tabs: S&P500, Crypto and FX. Each one is populated with many symbols for you to pick, for example AAPL, BTC or USDCOP=X. In order to train the models with historical data, you can set the start and end dates with the date pickers. Then, you can set the test split for model validation (e.g. the last 6 months of actual data) and the forecast horizon (e.g. 6 months in the future).  
+
+Before running the forecast, note that there is a symbol information card with useful data such as price, day change, 52W range, etc. 
+
+![Control panel](1.png)
+
+bbb
 
 ## Conclusion
 
