@@ -82,11 +82,9 @@ fin_fore_app/
 | Random Forest | Lag-Based ML | Ensemble of decision trees. Captures non-linear relationships between lag features and future prices. Confidence intervals via conformal prediction (MAPIE). |
 | XGBoost | Lag-Based ML | Gradient boosting on lag features and calendar components. Typically the strongest ML baseline for financial time series. Confidence intervals via conformal prediction (MAPIE). |  
 
+The goal was to compare models from different families and observe their strengths and weaknesses in practice on real financial data.
 
-
-
-
-## Section 2
+## Results
 
 Content for your second major section.
 
