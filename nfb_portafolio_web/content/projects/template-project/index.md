@@ -9,9 +9,9 @@
 # ============================================================================
 
 # === BASIC FIELDS (Required for all) ===
-title: "Project Title"
-date: 2026-02-17
-summary: "Brief description that appears in cards and meta tags"
+title: "S&P500, Crypto & FX Forecasting Application"
+date: 2026-03-17
+summary: "Pick a symbol and run price forecasts. Check performance metrics and interact with validation and forecast plots."
 authors:
   - me
 
@@ -19,9 +19,10 @@ authors:
 # For blog: Tutorial, DevOps, Frontend, Backend, Docker, React, Node.js, etc.
 # For projects: Backend, Frontend, Full-Stack, API, etc.
 tags:
-  - Tag1
-  - Tag2
-  - Tag3
+  - Forecasting
+  - Machine Learning
+  - Finance
+  - Time Series
 
 # === FEATURED IMAGE (Optional) ===
 # If true, this item appears first in featured sections
@@ -34,34 +35,40 @@ featured: false
 # === TECH STACK (Projects only) ===
 # List of technologies used
 tech_stack:
-  - React
-  - TypeScript
-  - Node.js
-  - PostgreSQL
+  - Python
+  - Dash
+  - Plotly
+  - Prophet
+  - statsforecast
+  - XGBoost
+  - scikit-learn
+  - MAPIE
+  - yfinance
   - Docker
+  - Hugging Face Spaces
 
 # === LINKS (Projects only) ===
 # CODE and DEMO buttons
 links:
   - type: github
-    url: https://github.com/username/project
+    url: https://github.com/nforeroba/fin_fore_app
     label: Code
   - type: live
-    url: https://demo.example.com
+    url: https://huggingface.co/spaces/nikoniko23/fin_fore_app
     label: Demo
 
 # === PROJECT METADATA (Projects only) ===
 status: "Live"                    # Live, In Progress, Completed, Archived
-role: "Lead Developer"            # Your role in the project
-duration: "4 months"              # How long it took
-team_size: 2                      # Number of people
+role: "Solo Developer"            # Your role in the project
+duration: "1 week"                # How long it took
+team_size: 1                      # Number of people
 
 # === HIGHLIGHTS (Projects only) ===
 # Key achievements or metrics
 highlights:
-  - "Handles 10k+ concurrent users"
-  - "99.9% uptime SLA"
-  - "60% performance improvement"
+  - "Symbols: 500+ stocks, 100 crypto and 28 FX pairs available"
+  - "8 forecasting models with different performance, bias and overfitting metrics"
+  - "Deployed on Hugging Face Spaces via Docker"
 
 # ============================================================================
 # END OF FRONTMATTER
