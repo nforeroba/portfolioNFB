@@ -152,15 +152,15 @@ client_and_work:
       is_even: false
 
   
-    - title: "S&P500 Stock Price Forecast Application"
-      description: "Pick a stock, tweak parameters and run price forecasts. Check performance metrics and interact with test and forecast plots."
+    - title: "S&P500, Crypto & FX Forecast Application"
+      description: "Pick a symbol and run price forecasts. Check performance metrics and interact with validation and forecast plots."
       button:
         icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://nicoforeba.shinyapps.io/SP500_Forecast/"
+        btnText: "Launch HF Space"
+        URL: "https://huggingface.co/spaces/nikoniko23/fin_fore_app"
       image:
-        x: "img/works/SP500.jpg"
-        _2x: "img/works/SP500.jpg"
+        x: "img/works/SP500.png"
+        _2x: "img/works/SP500.png"
       is_even: true
       
     - title: "Computer Vision - Character detection with YOLOv3"
