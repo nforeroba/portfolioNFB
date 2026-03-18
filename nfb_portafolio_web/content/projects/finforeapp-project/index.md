@@ -74,7 +74,7 @@ It is far from being a monolithic app. The functions and elements are clearly se
 
 ### Forecasting Models
 
-| Model | Family | Description |
+| **Model** | **Family** | **Description** |
 |---|---|---|
 | AutoARIMA | Statistical | Auto-selects the optimal ARIMA order with drift enabled to capture linear upward trends common in financial series. Uses a season length of 5 to match the 5-day trading week. |
 | AutoETS | Statistical | Automatically selects the best Error-Trend-Seasonality combination. Robust for series with clear trend and seasonal patterns. |
