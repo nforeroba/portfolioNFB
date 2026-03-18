@@ -1,6 +1,6 @@
 ---
-title: "My Beloved PC Build"
-date: 2026-03-17
+title: "My PC Build"
+date: 2026-03-18
 summary: "A brief description of my PC build, comprising parts between 2020 and 2026."
 authors:
   - me
@@ -15,9 +15,11 @@ This brief blog post is about my first and current PC build. Initially meant for
 
 ## How It Started
 
-Back in 2014, right in the middle of my MSc studies, I decided to buy a new computer to replace my kinda old laptop than my beloved father bought for me on 2008. 
+Back in 2014, right in the middle of my MSc studies, I decided to buy a new computer to replace my kinda old laptop than my beloved father bought for me on 2008. I remember noticing a green sticker, it had a NVIDIA GeForce 840M GPU. I never had a PC with a dedicated GPU before, so I was happy. 
 
 ![First Gaming PC](1.png)
+
+
 
 ### Subsection 1.2
 
