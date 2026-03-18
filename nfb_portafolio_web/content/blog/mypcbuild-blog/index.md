@@ -47,13 +47,13 @@ The X570 was expensive back then, but it had good quality capacitors and room fo
 
 My PC is almost 6 years old, but it has never had a catastrophic failure and still rocks hard. Even though AM5 is a newer socket than AM4, due to the high prices of DDR5 RAM, AM4 is more relevant than ever.  
 
-In the last two years I've added a PCIe 4.0 SSD and replaced the RTX 3060 Ti (8 GB) with a RTX 5070 Ti (16 GB). The former GPU now belongs to the system I built for my wife, who is also into tech and software development. With two SSDs, my PC boots both windows and linux. I've also maxed out the RAM capacities of my motherboard, fortunately way before the prices increased.  
+In the last two years I've added a PCIe 4.0 SSD and replaced the RTX 3060 Ti (8 GB) with a [RTX 5070 Ti](https://www.techpowerup.com/gpu-specs/msi-rtx-5070-ti-ventus-3x-oc-plus.b12097) (16 GB, **44.48 TFLOPS!!!**). The former GPU now belongs to the system I built for my wife, who is also into tech and software development. With two SSDs, my PC boots both windows and linux. I've also maxed out the RAM capacities of my motherboard, fortunately way before the prices increased.  
 
 I'd like to upgrade the CPU to a 16-core 5950X or the newer 5900XT, but it can wait. First I need to assess if the PSU needs replacement before it fails at providing electricity to the system. As the experts say: "don't cheap out on the PSU".  
 
 Considering all these things is both exciting and cumbersome and I love it. There is always room for improvement.
 
-### Takeaways
+## Takeaways
 
 - Do your research in order to guarantee part compatibility. YouTube is your best friend on this matter.
 - Building your own system is like playing with LEGO, if you know what you are doing.
