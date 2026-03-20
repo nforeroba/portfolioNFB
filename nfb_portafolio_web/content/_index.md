@@ -148,7 +148,7 @@ sections:
   - block: resume-experience
     id: experience
     content:
-      title: Experience
+      title: "Experience"
       date_format: Jan 2006
       items:
         - title: 'Data Scientist + AI Engineer/Developer (full-time)'
@@ -217,7 +217,7 @@ sections:
   - block: contact-info
     id: contact
     content:
-      title: Get In Touch
+      title: "Get In Touch"
       #subtitle: ""
       text: |-
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!

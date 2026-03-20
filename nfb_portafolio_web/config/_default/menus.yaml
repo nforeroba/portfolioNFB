@@ -6,8 +6,8 @@ main:
   - name: Projects
     url: /#projects
     weight: 10
-  - name: Skills
-    url: /#skills
+  - name: Stack
+    url: /#stack
     weight: 20
   - name: Experience
     url: /#experience
