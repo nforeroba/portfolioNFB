@@ -128,4 +128,4 @@ This financial forecasting app not only trains several models with financial inf
 
 **Project Status**: ✅ Live in Production  
 **GitHub**: [View Source Code](https://github.com/nforeroba/fin_fore_app)  
-**Launch**: [Try it Live ▶️](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
+**Launch ▶️**: [Try it Live!](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
