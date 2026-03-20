@@ -80,7 +80,7 @@ It is far from being a monolithic app. The functions and elements are clearly se
 | AutoETS | Statistical | Automatically selects the best Error-Trend-Seasonality combination. Robust for series with clear trend and seasonal patterns. |
 | Theta | Statistical | Dynamic Optimized Theta method. Decomposes the series into two lines with different slopes, effective for series with low volatility and smooth trends. |
 | Prophet | Additive | Meta's forecasting model. Decomposes the series into trend, seasonality, and holiday effects. Configured with US market holidays and 90% uncertainty intervals. |
-| Prophet + XGBoost | Hybrid | Prophet models trend and seasonality; XGBoost fits the in-sample residuals using calendar and cyclic features. Final prediction is the sum of both components. |
+| Prophet + XGBoost residues | Hybrid | Prophet models trend and seasonality; XGBoost fits the in-sample residuals using calendar and cyclic features. Final prediction is the sum of both components. |
 | ElasticNet | Lag-Based ML | Regularized linear regression (L1 + L2). Trained on lag features, rolling statistics, and Fourier terms. Confidence intervals via conformal prediction (MAPIE). |
 | Random Forest | Lag-Based ML | Ensemble of decision trees. Captures non-linear relationships between lag features and future prices. Confidence intervals via conformal prediction (MAPIE). |
 | XGBoost | Lag-Based ML | Gradient boosting on lag features and calendar components. Typically the strongest ML baseline for financial time series. Confidence intervals via conformal prediction (MAPIE). |  
@@ -128,4 +128,4 @@ This financial forecasting app not only trains several models with financial inf
 
 **Project Status**: ✅ Live in Production  
 **GitHub**: [View Source Code](https://github.com/nforeroba/fin_fore_app)  
-**Launch**: [Try it Live](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
+**Launch**: [Try it Live ▶️](https://huggingface.co/spaces/nikoniko23/fin_fore_app)

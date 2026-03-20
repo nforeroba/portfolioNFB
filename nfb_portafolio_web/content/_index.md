@@ -77,7 +77,7 @@ sections:
   
 # Visual Tech Stack - Icons organized by category
   - block: tech-stack
-    id: skills
+    id: stack
     content:
       title: "Tech Stack"
       subtitle: "Technologies I've used to build AI applications (web and on-premises)"
