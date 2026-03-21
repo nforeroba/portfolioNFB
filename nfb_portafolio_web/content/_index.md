@@ -80,7 +80,7 @@ sections:
     id: stack
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I've used to build AI applications (web and on-premises)"
+      subtitle: "Technologies I've used to build AI/ML/DL applications (web and on-premises)"
       categories:
         - name: Code, Data & Development
           items:
