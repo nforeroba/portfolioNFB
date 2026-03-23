@@ -41,7 +41,7 @@ So I read and read, watched and watched videos, until I felt confident enough (a
 
 The difference was huge. From a 0.8 TFLOP to a 17.1 TFLOP GPU, from a HDD to an SSD. Gaming performance was great, and the powerful GPU helped me with some deep learning and computer vision projects.  
 
-The X570 was expensive back then, but it had good quality capacitors and room for improvement.
+The X570 was expensive back then, but it had good quality capacitors and room for upgrades.
 
 ## How It's Going
 
