@@ -104,8 +104,10 @@ sections:
               icon: custom/huggingface
             - name: OpenCV
               icon: devicon/opencv
-            - name: Fish Audio
+            - name: Fish Speech
               icon: custom/fishaudio
+            - name: Faster Whisper
+              icon: custom/faster-whisper
         - name: Deployment & APIs
           items:
             - name: FastAPI
@@ -122,10 +124,12 @@ sections:
           items:
             - name: Ollama
               icon: custom/ollama
+            - name: vLLM
+              icon: custom/vllm
             - name: ChromaDB
               icon: custom/chromadb
             - name: LangChain & LangGraph
-              icon: custom/langchain_2
+              icon: custom/langchain_new
             - name: Claude
               icon: custom/claudeai
             - name: Gemini
