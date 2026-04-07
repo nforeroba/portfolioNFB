@@ -77,9 +77,9 @@ experience:
     start: 2024-07-15
     end: 2025-08-29
     summary: |
-      ∙ Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document extractor<br>
+      ∙ Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document analyzer<br>
       ∙ Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot<br>
-      ∙ Designed and co-developed a real-time ML process to optimize dialer ratio for outbound campaigns<br>
+      ∙ Designed, co-developed and co-deployed a real-time ML process to optimize dialing ratio for debt collection outbound campaigns<br>
       ∙ Developed a FastAPI WebSocket OCR Service for voucher text extraction
 
   - role: Data Scientist (contractor/consultant)
