@@ -90,8 +90,6 @@ sections:
               icon: devicon/rstudio
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Pandas
-              icon: custom/pandas
             - name: Git
               icon: devicon/git
         - name: Machine & Deep Learning
@@ -112,8 +110,6 @@ sections:
           items:
             - name: FastAPI
               icon: devicon/fastapi
-            - name: Streamlit
-              icon: devicon/streamlit
             - name: Docker
               icon: devicon/docker
             - name: Linux systemd
