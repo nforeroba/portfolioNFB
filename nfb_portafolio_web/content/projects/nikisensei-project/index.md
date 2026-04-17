@@ -32,12 +32,12 @@ tech_stack:
 
 
 links:
-  - type: github
-    url: https://github.com/nforeroba/fin_fore_app
-    label: Code
+  # - type: github
+  #   url: https://github.com/nforeroba/fin_fore_app
+  #   label: Code
   - type: live
-    url: https://huggingface.co/spaces/nikoniko23/fin_fore_app
-    label: Launch
+    url: uploads/niki_demo_clean_audio.mp4
+    label: Video
 
 
 status: "Live"                    
