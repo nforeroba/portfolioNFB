@@ -31,7 +31,10 @@ tech_stack:
   - Node.js
 
 links:
-  - type: Video
+  - type: github
+    url: https://github.com/nforeroba/nihongo_sensei
+    label: Code  
+  - type: live
     url: uploads/niki_demo_clean_audio.mp4
     label: Video
 
