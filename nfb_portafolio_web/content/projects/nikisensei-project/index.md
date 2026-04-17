@@ -1,5 +1,5 @@
 ---
-title: "AI Japanese Teacher Niki sensei"
+title: "AI Japanese Teacher - Niki sensei"
 date: 2026-04-20
 summary: "Practice Japanese with Niki, an AI sensei running 100% locally on an NVIDIA RTX 5070 Ti GPU."
 authors:
