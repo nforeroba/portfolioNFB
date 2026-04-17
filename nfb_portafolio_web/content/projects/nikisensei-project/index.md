@@ -98,15 +98,11 @@ We have 3 different tabs: S&P500, Crypto and FX. Each one is populated with many
 
 Before running the forecast, note that there is a symbol information card with useful data such as price, day change, 52W range, etc. 
 
-![Control panel](1.png)
 
 Click the green button to run the forecast. It will take a minute, please allow a moment for the models to run. The app is running on a free tier space on hugging face.
 
-![Validation chart](2.png)
 
 The first plot you will see is the validation plot. It shows the time series of the symbol's closing price and the forecasts after the test split. Each color represents a model, but it's fair to say it is quite colorful and crowded. Fortunately, you can click one or more models in the horizontal legend under the plot in order to show or hide them. Also, you can hover along the time series to compare the predictions versus the actual data, day by day, and their confidence intervals as well.
-
-![Metrics table](3.png)
 
 The table shows different relevant metrics for each model (don't forget to hover on the tooltips ⓘ to learn more about technical terms):  
 
@@ -118,8 +114,6 @@ The table shows different relevant metrics for each model (don't forget to hover
 - **OVERFIT:** Overfitting indicator — ratio of train MAPE to test MAPE, flags models that memorize training data but fail to generalize. *Overfit thresholds differ by model family*  
 
 The table above shows us that the first three models are suitable in terms of BIAS % and OVERFIT; they tend to overestimate (+ sign) the actual values but not by much (< 2%), and the quotient between MAPE train and MAPE test is greater than the threshold for these lag-based models (> 0.30). We will show those three models on the forecast horizon plot.
-
-![Forecast chart](4.png)
 
 Finally, we have the forecast plot. Thanks to plotly, we can zoom in and see clearly that the first model is more bullish while the other two are more conservative. January 2026 was a tough month for MSFT stock, dropping down from 471.86 USD to 429.31 USD. The next month and a half, it has stabilized around 400 USD. The models predict it won't drop from there. We shall see...
 
