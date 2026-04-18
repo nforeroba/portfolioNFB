@@ -35,9 +35,9 @@ links:
   # - type: github
   #   url: https://github.com/nforeroba/fin_fore_app
   #   label: Code
-  - type: live
-    url: uploads/niki_demo_clean_audio.mp4
-    label: Video
+  # - type: live
+  #   url: uploads/niki_demo_clean_audio.mp4
+  #   label: Video
 
 
 status: "Live"                    
@@ -52,6 +52,11 @@ highlights:
 ---
 
 This is a 
+
+<video width="100%" controls>
+  <source src="niki_demo_clean_audio.mp4" type="video/mp4">
+</video>
+
 
 ## Architecture
 
