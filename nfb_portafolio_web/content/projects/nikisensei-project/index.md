@@ -123,13 +123,13 @@ The back end is composed of four Python microservices, each with its own virtual
 <strong>Cool Fact:</strong> Faster-Whisper helps me improve my pronunciation indirectly; if I speak "carelessly", my audio is transcribed in <em>romaji (konnichiwa)</em>, meaning the threshold for Japanese language detection wasn't passed. However, if I pay more attention to my pronunciation, my audio is transcribed in <em>hiragana/katakana/kanji (こんにちは)</em>, meaning the STT detected Japanese language.
 </p>
 
-**sensei-brain** wraps a vLLM instance serving *Qwen3-Swallow-8B-AWQ-INT4*, a model jointly developed by TokyoTech-LLM and Alibaba's Qwen team, fine-tuned extensively on Japanese. vLLM's prefix caching reaches ~93% hit rate within a session since the system prompt stays fixed, which significantly reduces latency on consecutive turns. The service extracts an *emotion tag* from the model's response before forwarding the clean text downstream. These are the emotion tags stated in the prompt (among other useful instructions for improved user experience), which will be useful for the avatar's expressions:
+**sensei-brain** wraps a vLLM instance serving *Qwen3-Swallow-8B-AWQ-INT4*, a model developed by the Okazaki and Yokota Laboratories at Institute of Science Tokyo and AIST, built on top of Alibaba's Qwen3 base model and fine-tuned extensively on Japanese. vLLM's prefix caching reaches ~93% hit rate within a session since the system prompt stays fixed, which significantly reduces latency on consecutive turns. The service extracts an *emotion tag* from the model's response before forwarding the clean text downstream. These are the emotion tags stated in the prompt (among other useful instructions for improved user experience), which will be useful for the avatar's expressions:
 
 <span style="color:#f6c86e">[EMOTION:happy]</span>  
 <span style="color:#44da37">[EMOTION:encouraging]</span>  
 <span style="color:#3eacac">[EMOTION:neutral]</span>  
 <span style="color:#6957df">[EMOTION:sad]</span>  
-<span style="color:#ff7bbb">[EMOTION:surprised]</span>  
+<span style="color:#ff7bbb">[EMOTION:surprised]</span>
 
 **sensei-mouth** synthesizes speech using *Qwen3-TTS-12Hz-0.6B-CustomVoice*, also by Alibaba, with the Ono Anna voice profile. It uses Flash Attention 2 and `torch.compile` to reduce synthesis time, and performs a three-language warm-up at startup to pre-compile the model's execution graph. However, it's still the bottleneck of the system, with an RTF of ~1.5 (should be 1.0 or less for a better experience).
 
