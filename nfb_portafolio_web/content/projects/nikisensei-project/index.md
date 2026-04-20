@@ -58,11 +58,13 @@ This is Niki sensei, a conversational Japanese teacher. It combines multilingual
 </video>
 
 
-## Architecture
+## Project Architecture
+
+## 
 
 ## Conclusion
 
-
+## Perspectives for next version
 
 **If you have suggestions for future improvement, please reach out!**
 
