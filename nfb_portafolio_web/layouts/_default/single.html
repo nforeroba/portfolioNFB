@@ -289,7 +289,7 @@
       {{ $authorData := index site.Data.authors . }}
       {{ with $authorData }}
       {{ $avatar := resources.Get "media/authors/me.png" }}
-      <div class="pt-4">
+      <div class="pt-2">
         <div class="flex gap-6 items-start">
           {{ with $avatar }}
           <img src="{{ .RelPermalink }}" 
