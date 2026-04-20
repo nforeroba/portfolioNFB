@@ -20,7 +20,7 @@ sections:
     design:
       view: article-grid
       fill_image: true
-      columns: 1
+      columns: 2
       show_date: true
       show_read_time: true
       show_read_more: false
