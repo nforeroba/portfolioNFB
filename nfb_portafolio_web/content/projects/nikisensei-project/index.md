@@ -177,7 +177,7 @@ Niki sensei demonstrates that a fully local, real-time conversational AI system 
 
 - **Anger expression** if the student is rude or curses, Niki gets annoyed. Requires a new `.exp3.json` expression and a system prompt rule. Although... cursing in a foreign language is fun, isn't it.
 - **SQL logging** for memory and traceability.
-- **Computer vision** by means of a sensei-eyes microservice, e.g. gesture detection, object detection... there are many posibilities.
+- **Computer vision** by means of a sensei-eyes microservice, e.g. gesture detection, object detection... there are many possibilities.
 - **Bubble translation on hover** — mousing over a dialogue bubble shows a translation.
 - **Making my own avatars** with VROID Studio (available on Steam).
 
