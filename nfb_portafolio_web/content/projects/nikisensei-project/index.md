@@ -40,18 +40,18 @@ links:
   #   label: Video
 
 
-status: "Live"                    
-role: "Solo Developer"            
-duration: "1 week"                
-team_size: 1                      
+status: "Video"
+role: "Solo Developer"
+duration: "3 weeks"
+team_size: 1
 
 highlights:
-  - "500+ stocks, 100 crypto and 28 FX pairs available"
-  - "8 forecasting models with different performance, bias and overfitting metrics"
-  - "Deployed on Hugging Face Spaces via Docker"
+  - "100% local voice conversation pipeline: STT → LLM → TTS running on a single NVIDIA RTX 5070 Ti"
+  - "Microservices architecture with real-time WebSocket orchestration and Live2D avatar with emotion-driven expressions"
+  - "Full observability stack with Prometheus and Grafana monitoring latency, VRAM usage and energy cost in COP"
 ---
 
-This is a 
+This is Niki sensei, a conversational Japanese teacher. It combines multilingual audio transcription with Faster-Whisper, a Japanese-proficient LLM with Qwen3-Swallow-8B, and natural-sounding speech synthesis with Qwen3-TTS-0.6B featuring Ono Anna's voice. On the front, an expressive Live2D avatar featuring Hiyori Momose. Behind the curtains, microservice status observability with Prometheus and a Grafana dashboard for energy, latency, and cost monitoring.
 
 <video width="100%" controls poster="thumbnail.png">
   <source src="niki_demo_clean_audio.mp4" type="video/mp4">
@@ -59,15 +59,6 @@ This is a
 
 
 ## Architecture
-
-
-### Forecasting Models
-
-
-
-## Usage
-
-
 
 ## Conclusion
 
@@ -77,6 +68,8 @@ This is a
 
 ---
 
-**Project Status**: ✅ Live in Production  
-**GitHub**: [View Source Code](https://github.com/nforeroba/fin_fore_app)  
-**Launch ▶️**: [Try it Live!](https://huggingface.co/spaces/nikoniko23/fin_fore_app)
+**Project Status**: ✅ Fully functional prototype. Watch the video below if you missed it!
+
+<video width="100%" controls poster="thumbnail.png">
+  <source src="niki_demo_clean_audio.mp4" type="video/mp4">
+</video>
