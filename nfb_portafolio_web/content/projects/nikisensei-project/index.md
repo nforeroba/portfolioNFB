@@ -1,7 +1,7 @@
 ---
 title: "AI Japanese Teacher - Niki sensei"
 date: 2026-04-17
-summary: "Practice Japanese with Niki, an AI sensei running 100% locally on an NVIDIA RTX 5070 Ti GPU."
+summary: "I practice Japanese with Niki, an AI sensei running 100% locally on my NVIDIA RTX 5070 Ti GPU."
 authors:
   - me
 
@@ -53,7 +53,7 @@ highlights:
 
 This is a 
 
-<video width="100%" controls>
+<video width="100%" controls poster="thumbnail.png">
   <source src="niki_demo_clean_audio.mp4" type="video/mp4">
 </video>
 
