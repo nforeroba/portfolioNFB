@@ -88,10 +88,10 @@ experience:
     start: 2024-01-22
     end: 2024-04-22
     summary: |
-      <span style="color: #FFA500;">•</span> Developed price monitoring tools to assess competitors' discount dynamics<br>
-      <span style="color: #FFA500;">•</span> Applied time-series analysis with boosting methods for SKU demand forecasting<br>
-      <span style="color: #FFA500;">•</span> Prepared sales reports across time periods and channels<br>
-      <span style="color: #FFA500;">•</span> Designed a cloud-based OCR tool for invoice data extraction
+      <span style="color: #fd6e2a;">•</span> Developed price monitoring tools to assess competitors' discount dynamics<br>
+      <span style="color: #fd6e2a;">•</span> Applied time-series analysis with boosting methods for SKU demand forecasting<br>
+      <span style="color: #fd6e2a;">•</span> Prepared sales reports across time periods and channels<br>
+      <span style="color: #fd6e2a;">•</span> Designed a cloud-based OCR tool for invoice data extraction
 
   - role: R&D | QC | QA Scientist (full-time)
     org: Bank of the Republic (Colombia) - BRC
