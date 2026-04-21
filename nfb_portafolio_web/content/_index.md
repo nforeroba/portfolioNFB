@@ -203,7 +203,7 @@ sections:
         link: "/blog/"
     design:
       view: article-grid
-      columns: 1
+      columns: 2
       fill_image: false
       show_read_more: false
       background:
