@@ -87,7 +87,7 @@ By pressing `f`, you can filter by *fit*. It turns out 657 out of 913 models fit
 
 - llmfit is easy to install, run and navigate.
 - Beautiful, clean CLI.
-- I could not find some models, e.g. mistral-small3.2:24b or the whole Swallow-LLM family of models from Japan.
+- I could not find some models, e.g. the whole Swallow-LLM family of LLMs from Japan.
 
 **Thank you for reading!**
 
