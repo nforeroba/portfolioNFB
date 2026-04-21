@@ -77,10 +77,10 @@ experience:
     start: 2024-07-15
     end: 2025-08-29
     summary: |
-      • Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document analyzer<br>
-      • Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot<br>
-      • Designed, co-developed and co-deployed a real-time ML process to optimize dialing ratio for debt collection outbound campaigns<br>
-      • Developed a FastAPI WebSocket OCR Service for voucher text extraction
+      <span style="color: #99CC00;">•</span> Co-developed and deployed two on-premises GenAI web apps: an LLM-powered chatbot and a VLM-powered document analyzer<br>
+      <span style="color: #99CC00;">•</span> Built speech synthesis services (batch and WebSocket) for an LLM-powered call center voice bot<br>
+      <span style="color: #99CC00;">•</span> Designed, co-developed and co-deployed a real-time ML process to optimize dialing ratio for debt collection outbound campaigns<br>
+      <span style="color: #99CC00;">•</span> Developed a FastAPI WebSocket OCR Service for voucher text extraction
 
   - role: Data Scientist (contractor/consultant)
     org: IMPSERCOM S.A.S - Espumados Group
@@ -88,10 +88,10 @@ experience:
     start: 2024-01-22
     end: 2024-04-22
     summary: |
-      • Developed price monitoring tools to assess competitors' discount dynamics<br>
-      • Applied time-series analysis with boosting methods for SKU demand forecasting<br>
-      • Prepared sales reports across time periods and channels<br>
-      • Designed a cloud-based OCR tool for invoice data extraction
+      <span style="color: #FFA500;">•</span> Developed price monitoring tools to assess competitors' discount dynamics<br>
+      <span style="color: #FFA500;">•</span> Applied time-series analysis with boosting methods for SKU demand forecasting<br>
+      <span style="color: #FFA500;">•</span> Prepared sales reports across time periods and channels<br>
+      <span style="color: #FFA500;">•</span> Designed a cloud-based OCR tool for invoice data extraction
 
   - role: R&D | QC | QA Scientist (full-time)
     org: Bank of the Republic (Colombia) - BRC
@@ -99,9 +99,9 @@ experience:
     start: 2018-05-08
     end: 2023-01-31
     summary: |
-      • Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles<br>
-      • Provided scientific and technical support to Mint and Treasury plants<br>
-      • Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives
+      <span style="color: #FFFFFF;">•</span> Applied statistical and mathematical models, including parametric, semi-parametric, and non-parametric survival models, to assess banknote life cycles<br>
+      <span style="color: #FFFFFF;">•</span> Provided scientific and technical support to Mint and Treasury plants<br>
+      <span style="color: #FFFFFF;">•</span> Served as ISO 9001:2015 internal auditor, contributing to continuous improvement initiatives
 
 # skills: # useless, i dont see any of this
 #   - name: Development
