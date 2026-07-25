@@ -16,7 +16,7 @@ This brief blog post is about my first and current PC build. Initially meant for
 
 ## How It Started
 
-Back in 2014, right in the middle of my MSc studies, I decided to buy a new computer to replace my kinda old but still functional laptop than my beloved father bought for me on 2008. I remember noticing a green sticker, it had a [NVIDIA GeForce 840M GPU](https://www.techpowerup.com/gpu-specs/geforce-840m.c2539). I never had a PC with a dedicated GPU before, so I was happy with my 863.2 GFLOPS baby.
+Back in 2014, right in the middle of my MSc studies, I decided to buy a new computer to replace my kinda old but still functional laptop that my beloved father bought for me on 2008. I remember noticing a green sticker, it had a [NVIDIA GeForce 840M GPU](https://www.techpowerup.com/gpu-specs/geforce-840m.c2539). I never had a PC with a dedicated GPU before, so I was happy with my 863.2 GFLOPS baby.
 
 ![First Gaming PC](1.png)
 
